@@ -11,9 +11,57 @@
         <title>Ireland's Ancient East</title>
         <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/icon.ico') }}" />
 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+
+        <!-- Font Awesome Icons (free version) -->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+
         <!-- CSS -->
         <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
 
         <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
     </head>
+    <body>
+        
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand navbar-logo" href="/">DiscoverIreland</a>
+            <form class="search-box d-flex">
+              <input class="form-control me-2 search-input" type="search" placeholder="Search for destinations, things to do, what's on and more" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/itinerary">Itinerary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Languages
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="?lang=en">English</a></li>
+                <li><a class="dropdown-item" href="?lang=de">German</a></li>
+                <li><a class="dropdown-item" href="?lang=it">Italian</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <!-- Bootstrap JS Bundle with Popper -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    </body>
 </html>
