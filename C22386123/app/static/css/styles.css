@@ -2,14 +2,26 @@ body {
     background-color: whitesmoke;
 }
 
+#text {
+    font-size: 50px;
+}
+
 .navbar-custom {
-    background-color: #ffffff; /* White background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    background-color: rgb(191, 191, 255); /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Slight shadow for depth */
+    border-radius: 100px;
 }
 
 .navbar-logo {
     color: #28a745; /* Green color for the logo */
     font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 20%;
+}
+
+.navbar.navbar-logo :hover {
+    text-decoration: none;
 }
 
 .search-box {
@@ -32,3 +44,51 @@ body {
     border-radius: 20px;
     padding: 0.5rem 1rem;
 }
+
+/* Container for the search bar and links */
+.search-and-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-right: 30%;
+}
+
+/* Style for the search box */
+.search-box {
+    width: 80%; /* Full width */
+    margin-bottom: 10px; /* Space below the search box */
+    padding-top: 35px;
+}
+
+/* Style for the navbar links */
+.navbar-links {
+    text-decoration: none;
+    padding-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-links .nav-link {
+    margin: 0 15px; /* Spacing between the links */
+    color: #333; /* Link color, change as needed */
+    text-decoration: none; /* No underline */
+}
+
+.navbar-links .nav-link:hover {
+    text-decoration: solid; /* Underline on hover, optional */
+}
+
+/* Style for the language select at the top right */
+.language-select {
+    position: absolute;
+    right: 25%;
+    z-index: 1000; /* To make sure it's above other elements */
+}
+
+.custom-dropdown {
+    aspect-ratio: 1/1;
+}
+
+
+
