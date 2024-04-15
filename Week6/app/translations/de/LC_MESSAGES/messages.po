@@ -1,0 +1,115 @@
+# German translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-19 15:11+0000\n"
+"PO-Revision-Date: 2023-02-28 13:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+msgid "Select Langauge"
+msgstr "Sprache auswählen"
+
+#: templates/about.html:11
+msgid "Strong Coffee, Strong Roots"
+msgstr "Starker Kaffee, starke Wurzeln"
+
+#: templates/about.html:12
+msgid "About Our Cafe"
+msgstr "Über unser Café"
+
+#: templates/about.html:14
+msgid ""
+"Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe."
+msgstr "Unser 1987 von den Hernandez-Brüdern gegründetes Unternehmen serviert reichhaltigen Kaffee von handwerklich arbeitenden Bauern in verschiedenen Regionen Süd- und Mittelamerikas. Wir haben es uns zur Aufgabe gemacht, die Welt zu bereisen, den besten Kaffee zu finden und ihn hier in unserem Café zu Ihnen zurückzubringen."
+
+#: templates/about.html:18 templates/about.html:24
+msgid "We guarantee that you will fall in "
+msgstr "Wir garantieren, dass Sie reinfallen"
+
+#: templates/about.html:19
+msgid "love"
+msgstr "Liebe"
+
+#: templates/about.html:20 templates/about.html:26
+msgid ""
+"with our decadent blends the moment you walk inside until you finish your"
+" last sip. Join us for your daily routine, an outing with friends, or "
+"simply just to enjoy some alone time."
+msgstr "mit unseren dekadenten Mischungen vom ersten Moment an bis zum Ende"
+" letzter Schluck. Begleiten Sie uns bei Ihrem Alltag, einem Ausflug mit Freunden oder "
+"einfach nur, um etwas Zeit alleine zu genießen."
+
+#: templates/about.html:25
+msgid "lust"
+msgstr "Lust"
+
+#: templates/about.html:30 templates/about.html:36
+msgid "We guarantee that you will "
+msgstr "Das garantieren wir Ihnen"
+
+#: templates/about.html:31
+msgid "yearn for"
+msgstr "verlangen nach"
+
+#: templates/about.html:32 templates/about.html:38
+msgid ""
+"our decadent blends the moment you walk inside until you finish your last"
+" sip. Join us for your daily routine, an outing with friends, or simply "
+"just to enjoy some alone time."
+msgstr "mit unseren dekadenten Mischungen vom ersten Moment an bis zum Ende"
+" letzter Schluck. Begleiten Sie uns bei Ihrem Alltag, einem Ausflug mit Freunden oder "
+"einfach nur, um etwas Zeit alleine zu genießen."
+
+#: templates/about.html:37
+msgid "desire"
+msgstr "Wunsch"
+
+#: templates/base.html:37
+msgid "Home"
+msgstr "Startseite"
+
+#: templates/base.html:46 templates/base.html:57
+msgid "English"
+msgstr "Englisch"
+
+#: templates/base.html:47 templates/base.html:58
+msgid "French"
+msgstr "Französisch"
+
+#: templates/base.html:48 templates/base.html:59
+msgid "German"
+msgstr "Deutsch"
+
+msgid "Business Casual - Start Bootstrap Theme"
+msgstr "Business Casual - Starten Sie das Bootstrap-Design"
+
+msgid "A Free Bootstrap Business Theme"
+msgstr "Ein kostenloses Bootstrap Business-Thema"
+
+msgid "Business Casual"
+msgstr "Business-Casual"
+
+msgid "About"
+msgstr "Um"
+
+msgid "Products"
+msgstr "Produkte"
+
+msgid "Store"
+msgstr "Speichern"
+
+msgid "Copyright  Your Website 2022"
+msgstr "Copyright Ihrer Website 2022"
+

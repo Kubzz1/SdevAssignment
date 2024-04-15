@@ -1,0 +1,10 @@
+<!-- index.html -->
+{% extends 'base.html' %}
+
+{% block navigation %}
+    {% include 'includes/' + lang_code + '/navbar.html' %}
+{% endblock %}
+
+{% block hero %}
+    {% include 'includes/' + lang_code + '/hero.html' %}
+{% endblock %}

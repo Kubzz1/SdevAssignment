@@ -1,0 +1,89 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-19 15:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/about.html:11
+msgid "Strong Coffee, Strong Roots"
+msgstr ""
+
+#: templates/about.html:12
+msgid "About Our Cafe"
+msgstr ""
+
+#: templates/about.html:14
+msgid ""
+"Founded in 1987 by the Hernandez brothers, our establishment has been "
+"serving up rich coffee sourced from artisan farmers in various regions of"
+" South and Central America. We are dedicated to travelling the world, "
+"finding the best coffee, and bringing back to you here in our cafe."
+msgstr ""
+
+#: templates/about.html:18 templates/about.html:24
+msgid "We guarantee that you will fall in "
+msgstr ""
+
+#: templates/about.html:19
+msgid "love"
+msgstr ""
+
+#: templates/about.html:20 templates/about.html:26
+msgid ""
+"with our decadent blends the moment you walk inside until you finish your"
+" last sip. Join us for your daily routine, an outing with friends, or "
+"simply just to enjoy some alone time."
+msgstr ""
+
+#: templates/about.html:25
+msgid "lust"
+msgstr ""
+
+#: templates/about.html:30 templates/about.html:36
+msgid "We guarantee that you will "
+msgstr ""
+
+#: templates/about.html:31
+msgid "yearn for"
+msgstr ""
+
+#: templates/about.html:32 templates/about.html:38
+msgid ""
+"our decadent blends the moment you walk inside until you finish your last"
+" sip. Join us for your daily routine, an outing with friends, or simply "
+"just to enjoy some alone time."
+msgstr ""
+
+#: templates/about.html:37
+msgid "desire"
+msgstr ""
+
+#: templates/base.html:37
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:46 templates/base.html:57
+msgid "English"
+msgstr ""
+
+#: templates/base.html:47 templates/base.html:58
+msgid "French"
+msgstr ""
+
+#: templates/base.html:48 templates/base.html:59
+msgid "German"
+msgstr ""
+
