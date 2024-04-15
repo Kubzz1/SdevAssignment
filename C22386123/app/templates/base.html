@@ -9,6 +9,11 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Ireland's Ancient East</title>
-        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/icon.ico') }}" />
+
+        <!-- CSS -->
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+
+        <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
     </head>
 </html>
