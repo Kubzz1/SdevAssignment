@@ -29,49 +29,38 @@
     <body>
         
       <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <!-- Brand Logo -->
-            <a class="navbar-brand navbar-logo" href="/">DiscoverIreland</a>
-            
-            <!-- Search Bar and Links Container -->
-            <div class="search-and-links-container">
-                <!-- Search Form -->
-                <form class="search-box d-flex">
-                    <input class="form-control me-2 search-input" type="search" placeholder="Search for destinations, things to do, what's on and more" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <!-- View Map Link -->
-                    <a class="btn btn-outline-secondary ms-2" href="/map"><i class="fa-solid fa-map"></i></a>
-                
-                </form>
-                
-
-                <!-- Navbar Links -->
-                <div class="navbar-links d-flex justify-content-center">
-                    <a class="nav-link" href="/highlights" ><i class="fa-solid fa-house"></i><br>Home</a>
-                    <a class="nav-link" href="/guides"><i class="fa-solid fa-clipboard-list"></i><br>Itinerary</a>
-                    <a class="nav-link" href="/things-to-do"><i class="fa-solid fa-address-book"></i><br>Contact</a>
-                    <!-- More links can be added here -->
-                </div>
-            </div>
-            
-            <!-- Language Dropdown -->
-            <div class="language-select">
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle custom-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa-solid fa-globe"></i>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="?lang=en">English</a></li>
-                        <li><a class="dropdown-item" href="?lang=de">German</a></li>
-                        <li><a class="dropdown-item" href="?lang=it">Italian</a></li>
-                    </ul>
-                </div>
-            </div>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-clipboard-list"></i> Itinerary</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-language"></i> Language
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">German</a></li>
+                  <li><a class="dropdown-item" href="#">Italian</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
         </div>
-    </nav>
-
-  <!-- Other body content -->
+      </nav>
 
   <!-- Bootstrap JS Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
