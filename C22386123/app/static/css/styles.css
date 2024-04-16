@@ -3,6 +3,41 @@ body {
 }
 
 
-
-
+/* Reset the navbar's default padding and margin */
+.navbar {
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa; /* Adjust the background color as needed */
+  }
+  
+  /* Style the navbar brand/logo */
+  .navbar-brand {
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: green; /* Adjust the color as needed */
+  }
+   
+  /* Align the search form to the center of the navbar */
+  .navbar .d-flex {
+    flex: 1;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  
+  /* Style the search input */
+  .navbar .form-control {
+    border: 2px solid #ccc; /* Adjust the border color and size as needed */
+    border-radius: 2rem; /* Rounded corners for the input */
+  }
+  
+  /* Style the search button */
+  .navbar .btn {
+    border: 2px solid #ff6c2c; /* Adjust the border color and size as needed */
+    color: #ff6c2c; /* Adjust the color as needed */
+  }
+  
+  /* Style the icons in the navbar */
+  .fa-solid {
+    margin-right: 5px; /* Adjust the space between icon and text */
+  }
+  
 
