@@ -27,54 +27,18 @@
         <link href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}" rel="stylesheet" />
     </head>
     <body>
-        
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-              <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='assets/img/' + '/logo-multi.svg') }}" alt="..." />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <form class="d-flex justify-content-center w-100" role="search">
-                <input class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>              
-              </form>       
-            </div>
-          </div> 
-        </nav>
-        
-        <!-- Centered links and icons under the search bar -->
-        <div class="links text-center bg-body-tertiary ">
-          <div class="d-inline-block m-3">
-            <a class="d-block nav-link" href="#"><i class="fa-solid fa-house"></i><br> Home</a>
-          </div>
-          <div class="d-inline-block m-3">
-            <a class="d-block nav-link" href="#"><i class="fa-solid fa-clipboard-list"></i><br> Itinerary</a>
-          </div>
-          <div class="d-inline-block m-3">
-            <a class="d-block nav-link" href="#"><i class="fa-solid fa-calendar-days"></i><br> Events</a>
-          </div>
-          <div class="d-inline-block m-3">
-            <a class="d-block nav-link" href="#"><i class="fa-solid fa-bowl-food"></i><br> Resturants</a>
-          </div>
-          <div class="d-inline-block m-3">
-            <button class="btn btn-outline-success dropdown-toggle mb-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-language"></i><br> Language
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/">English</a></li>
-              <li><a class="dropdown-item" href="#">German</a></li>
-              <li><a class="dropdown-item" href="#">Italian</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Navigation to Links -->
+       <!-- Navigation to Links -->
         {% block navigation %}
         {% endblock %}
+
+        <!-- Carousel Images -->
+        {% block hero %}
+        {% endblock %}
+
+        {% block main %}
+        {% endblock %}
+
+        
   <!-- Bootstrap JS Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

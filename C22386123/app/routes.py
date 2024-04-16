@@ -12,9 +12,13 @@ def set_session_language():
 def index():
     return (render_template("index.html"))
 
-@app.route('/about')
-def about():
-    return (render_template ("about.html"))
+@app.route('/itinerary')
+def itinerary():
+    return (render_template ("itinerary.html"))
+
+@app.route('/contact')
+def contact():
+    return (render_template ("contact.html"))
 
 ''' Adding more routes if needed '''
 
