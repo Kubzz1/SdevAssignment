@@ -25,8 +25,22 @@
   </header>
 
   <section class="content">
-    <p>Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.</p>
-    <p>Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.</p>
+    {% if lang_code=='en' %}
+    <p>{{_('Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.')}}</p>
+    <p>{{_('Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.')}}</p>
+
+    {% elif lang_code=='de' %}
+    <p>{{_('Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.')}}</p>
+    <p>{{_('Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.')}}</p>
+
+    {% elif lang_code=='it' %}
+    <p>{{_('Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.')}}</p>
+    <p>{{_('Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.')}}</p>
+
+    {% else %}
+    <p>{{_('Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.')}}</p>
+    <p>{{_('Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.')}}</p>
+    {% endif %}
   </section>
 
   <div class="container-1">
