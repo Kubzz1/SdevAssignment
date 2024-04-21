@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 2.5em; 
+    margin: 0.67em 0;
+    text-align: center;
+    margin-bottom: 0.67em;
+  }
+
+  .content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+
+  .content p {
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .container-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: #E05A47;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero h2 {
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero p {
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: white;
+    color: #E05A47;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    flex-basis: calc(33.333% - 20px);
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #333;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card p {
+    color: #666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rem;
+    padding-top: 5rem;
+}
+
+.text-section {
+    flex-basis: 60%; 
+    padding-right: 2.5rem; 
+    text-align: center;
+    font-size: 15px;
+}
+
+.image-section {
+    flex-basis: 40%; 
+    text-align: right; 
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 2.5rem;
+    padding-left: 2.5rem;
+}

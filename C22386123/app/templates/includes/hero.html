@@ -1,1 +1,80 @@
-<h1>LMAO XD</h1>
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <header>
+    <h1>Uncover Ireland's Ancient East</h1>
+  </header>
+
+  <section class="content">
+    <p>Experience Ireland's Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.</p>
+    <p>Hear local legends and mythical tales of the east of Ireland on a lively walking tour or travel back in time at an ancient monastic site. Head on an epic mountain hike and after, experience the cultural riches of the incredible cities.</p>
+  </section>
+
+  <div class="container-1">
+    <section class="hero">
+        <h1>KeepDiscovering</h1>
+        <h2>Ireland's Ancient East is ready for you</h2>
+        <p>Set off on a journey through the Wicklow Mountains, visit stunning castles, enjoy incredible food and so much more.</p>
+        <a href="{{ url_for('itinerary') }}" class="btn-more">Itinerary</a>
+    </section>
+    
+    <section class="cards">
+        <div class="card">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+            <h3>History and Heritage</h3>
+            <p>10 fascinating facts about Ireland's Ancient East</p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+            <h3>Family Fun</h3>
+            <p>10 ideas for families exploring Ireland's Ancient East</p>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+            <h3>Houses and Gardens</h3>
+            <p>Discover the gardens of Ireland's Ancient East</p>
+        </div>
+    </section>
+</div>
+
+<div class="container-2">
+    <div class="text-section">
+        <h1>Start Exploring</h1>
+        <p>
+            Ireland's Ancient East is a remarkable region that invites tourists to delve into over 5,000 years of European history. 
+            This tranquil land is not only known for its green hills, charming towns, and calm waters but also for being steeped in history that ranges from the Celtic times to the modern age.
+        </p>
+        <br>
+        <p>
+            Here, you can have an intimate experience with history, like stepping inside a monument that has withstood millennia or enjoying the view from atop a 13th-century lighthouse. 
+            Places like the Rock of Cashel in County Tipperary offer a glimpse into Ireland's majestic past.
+        </p>
+        <br>
+        <p>
+            The journey through Ireland's Ancient East isn't just about visiting places; it's about the stories that have shaped Ireland. You can ride the waves to Spike Island in Cork, 
+            walk through the medieval streets of Waterford, or ponder the ancient myths atop the Hill of Tara in Meath.
+        </p>
+    </div>
+    <div class="image-section">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+    </div>
+</div>
