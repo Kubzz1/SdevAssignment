@@ -28,6 +28,82 @@
   </div>
 
   <div class="gmaps">
-    <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/gmaps.png') }}" alt="Google Maps">
+    <h2>Map of Ireland</h2>
+    <a href="https://www.google.com/maps/@53.2941416,-6.4111592,14z?entry=ttu"><img src="{{ url_for('static', filename='assets/img/' + lang_code +'/gmaps.png') }}" alt="Google Maps"></a>
   </div>
+
+  <!-- Text Blocks Layout -->
+<section class="text-blocks">
+    <article>
+      <h2>Places and Events</h2>
+      <p>
+        Ireland's Ancient East is a region of profound historical and cultural significance, offering a range of attractions that showcase Ireland's heritage, from ancient times to modern day. Some of the must-visit places include:
+    </p>
+    </article>
+  </section>
+  
+  <!-- Image Cards Layout -->
+  <section class="image-cards">
+    <div class="card">
+      <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+      <div class="card-content">
+        <h3>Brehon Brewhouse</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Inniskeen, Co. Monaghan</p>
+        <p>
+            Brehon Brewhouse offers an engaging experience for those interested in craft beer and Irish history. Located in County Monaghan, the brewhouse sits among the rolling landscapes near Inniskeen, just a few miles from the birthplace of the famed Irish poet Patrick Kavanagh. The brewhouse itself is a venture by dairy farmer Seamus McMahon, who began the brewery on his family farm, blending the tradition of brewing with his family's history in dairy farming.
+            <br><br>
+            <i class="fa-solid fa-car"></i> To get there, it's best to have your own transportation as the brewhouse is located off the beaten path, in the countryside. Tours are usually available on Saturdays, and for larger groups, arrangements can be made for other days. Given its location, the approach is likely to involve smaller country roads typical of rural Ireland. You can contact the brewhouse directly to inquire about the best routes and any transportation advice they might have for your visit.
+            <br><br>
+            <i class="fa-solid fa-helmet-safety"></i> When it comes to safety, like any visitor attraction, it's advisable to follow any safety guidelines provided by the brewhouse during the tour, especially when viewing the brewing equipment. In terms of health safety, while specific details on health and safety protocols aren't provided in the sources, establishments like Brehon Brewhouse typically adhere to the standard food and beverage industry regulations to ensure visitor safety.
+            <br><br>
+            For more information and to plan your visit, you can reach out to Brehon Brewhouse at +353 86 823 0914 or visit their official website (<a href="https://brehonbrewhouse.ie/">Here</a>)
+        </p>
+      </div>
+    </div>
+    <div class="card">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+        <div class="card-content">
+          <h3>Waterford Estuary Coastal Path – Dunmore East to Ballymacaw</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Dunmore East, Co. Waterford</p>
+          <p>
+            The Waterford Estuary Coastal Path stretches from Dunmore East to Ballymacaw Cove and is a linear walk that promises stunning views and a chance to explore the natural beauty of the Waterford coast. The route is moderately challenging and includes steps, stiles, footbridges, and stream crossings. It is approximately 7 kilometers long and offers an immersive experience with sights of rugged cliffs and the opportunity to observe local wildlife such as birds and possibly seals.
+            <br><br>
+            <i class="fa-solid fa-car"></i> To reach the Waterford Estuary Coastal Path, which starts at Dunmore East Harbour Car Park, you can drive there directly and park at the designated car park. If you're using public transport, buses serve Waterford City, from where you can catch a local bus or taxi to Dunmore East. It’s recommended to check the latest schedules and routes with local transport services before you travel.
+            <br><br>
+            <i class="fa-solid fa-helmet-safety"></i> For a safe visit to the Waterford Estuary Coastal Path from Dunmore East to Ballymacaw, ensure you have suitable walking shoes and weather-appropriate clothing. Stay on marked trails, keep dogs on a leash, and park responsibly at the designated area in Dunmore East. Check local weather conditions before your walk and avoid the trail during adverse weather. Always follow the Leave No Trace principles to protect the coastal environment​.
+            <br><br>
+            Click <a href="https://www.discoverireland.ie/waterford/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw">Here</a> for more information
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+        <div class="card-content">
+          <h3>Powerscourt House & Gardens</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Enniskerry, Co. Wicklow</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+        <div class="card-content">
+          <h3>Hysterical Histories Cork - Dinner Theatre Experience</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Cork City, Co. Cork</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+        <div class="card-content">
+          <h3>Exhibition: Dundalk Photographic Society 2024</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Dundalk, Co. Louth</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" alt="Brehon Brewhouse">
+        <div class="card-content">
+          <h3>By Hook or By Crooke: A Hike to the Hook Walk</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Duncannon, Co. Wexford</p>
+        </div>
+      </div>
+  </section>
+
 {% endblock %}
