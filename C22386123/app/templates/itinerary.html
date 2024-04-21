@@ -5,5 +5,29 @@
 {% endblock %}
 
 {% block main %}
-<h1>Start this PLSEAS AND DO THE DOCUMENT</h1>
+
+<h1>Itinerary</h1>
+
+<div class="container-4">
+    <div class="image-box">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/enImg1.jpg') }}" class="d-block w-100" alt="Image 3">
+    </div>
+    <div class="text-box"> 
+      <h2>What Can You Do In Ireland?</h2>
+      <p>
+        Embark on a timeless journey through Ireland's Ancient East, a treasured land woven with legendary tales, historic footsteps, and landscapes that hold the whispers of centuries.
+        From the lush valleys of the Wicklow Mountains to the storied stones of Kilkenny Castle, each bend in the road leads to new adventures steeped in the myths and sagas that are the heart of Ireland's heritage.
+        <br>
+        Your itinerary unfolds like a well-worn map to the past, guiding you to mystical sites like the Brú na Bóinne, where ancient tombs predate the pyramids of Egypt, and to vibrant towns where the past is as palpable as the stones underfoot.
+        Whether you're exploring the serene beauty of Glendalough or the hallowed halls of storied monasteries, Ireland's Ancient East promises a tapestry of experiences that intertwine the natural beauty with the indelible mark of history.
+        <br>
+        Here, where every path has a story, your journey will be more than a passage through landmarks; it will be an immersive dive into a world where legends live and breathe.
+        Welcome to Ireland's Ancient East, where history awaits at every turn.
+      </p>
+    </div>
+  </div>
+
+  <div class="gmaps">
+    <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/gmaps.png') }}" alt="Google Maps">
+  </div>
 {% endblock %}

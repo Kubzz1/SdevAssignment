@@ -98,3 +98,40 @@ body {
       margin: 20px;
     }
   }
+
+  .container-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .image-box {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .text-box {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+
+  .gmaps img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
