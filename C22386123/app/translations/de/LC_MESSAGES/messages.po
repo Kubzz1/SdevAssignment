@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 12:40+0100\n"
-"PO-Revision-Date: 2024-04-22 12:40+0100\n"
+"POT-Creation-Date: 2024-04-22 15:25+0100\n"
+"PO-Revision-Date: 2024-04-22 15:26+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -86,6 +86,16 @@ msgstr ""
 "historischer und kultureller Bedeutung und bietet eine Reihe von "
 "Attraktionen, die das Erbe Irlands von der Antike bis zur Gegenwart "
 "zeigen. Zu den Orten, die man unbedingt besuchen muss, gehören:"
+
+#: templates/itinerary.html:148
+msgid "Transportation"
+msgstr "Beförderung"
+
+#: templates/itinerary.html:149
+msgid ""
+"Here are Links for the Main Transport in Ireland to get to your "
+"Destination"
+msgstr "Hier finden Sie Links zu den wichtigsten Verkehrsmitteln in Irland, um an Ihr Ziel zu gelangen"
 
 #: templates/includes/de/hero.html:28 templates/includes/en/hero.html:28
 #: templates/includes/hero.html:28 templates/includes/it/hero.html:28

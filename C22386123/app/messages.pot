@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 12:40+0100\n"
+"POT-Creation-Date: 2024-04-22 15:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,16 @@ msgid ""
 "significance, offering a range of attractions that showcase Ireland's "
 "heritage, from ancient times to modern day. Some of the must-visit places"
 " include:"
+msgstr ""
+
+#: templates/itinerary.html:148
+msgid "Transportation"
+msgstr ""
+
+#: templates/itinerary.html:149
+msgid ""
+"Here are Links for the Main Transport in Ireland to get to your "
+"Destination"
 msgstr ""
 
 #: templates/includes/de/hero.html:28 templates/includes/en/hero.html:28

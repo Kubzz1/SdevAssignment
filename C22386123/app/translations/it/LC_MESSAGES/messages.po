@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 12:40+0100\n"
-"PO-Revision-Date: 2024-04-22 13:08+0100\n"
+"POT-Creation-Date: 2024-04-22 15:25+0100\n"
+"PO-Revision-Date: 2024-04-22 15:38+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
 "Language-Team: it <LL@li.org>\n"
@@ -83,6 +83,16 @@ msgstr ""
 " culturale, che offre una serie di attrazioni che mettono in mostra il "
 "patrimonio irlandese, dai tempi antichi ai giorni nostri. Alcuni dei "
 "luoghi da visitare includono:"
+
+#: templates/itinerary.html:148
+msgid "Transportation"
+msgstr "Trasporti"
+
+#: templates/itinerary.html:149
+msgid ""
+"Here are Links for the Main Transport in Ireland to get to your "
+"Destination"
+msgstr "Ecco i link per i principali mezzi di trasporto in Irlanda per arrivare a destinazione"
 
 #: templates/includes/de/hero.html:28 templates/includes/en/hero.html:28
 #: templates/includes/hero.html:28 templates/includes/it/hero.html:28
