@@ -1,0 +1,199 @@
+# German translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-22 12:40+0100\n"
+"PO-Revision-Date: 2024-04-22 12:40+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/itinerary.html:18
+msgid ""
+"Embark on a timeless journey through Ireland's Ancient East, a treasured "
+"land woven with legendary tales, historic footsteps, and landscapes that "
+"hold the whispers of centuries.\n"
+"        From the lush valleys of the Wicklow Mountains to the storied "
+"stones of Kilkenny Castle, each bend in the road leads to new adventures "
+"steeped in the myths and sagas that are the heart of Ireland's heritage."
+"\n"
+"        <br>\n"
+"        Your itinerary unfolds like a well-worn map to the past, guiding "
+"you to mystical sites like the Brú na Bóinne, where ancient tombs predate"
+" the pyramids of Egypt, and to vibrant towns where the past is as "
+"palpable as the stones underfoot.\n"
+"        Whether you're exploring the serene beauty of Glendalough or the "
+"hallowed halls of storied monasteries, Ireland's Ancient East promises a "
+"tapestry of experiences that intertwine the natural beauty with the "
+"indelible mark of history.\n"
+"        <br>\n"
+"        Here, where every path has a story, your journey will be more "
+"than a passage through landmarks; it will be an immersive dive into a "
+"world where legends live and breathe.\n"
+"        Welcome to Ireland's Ancient East, where history awaits at every "
+"turn. <h4>Scroll Down for More</h4>"
+msgstr ""
+"Begeben Sie sich auf eine zeitlose Reise durch den alten Osten Irlands, "
+"ein geschätztes Land voller legendärer Geschichten, historischer Spuren "
+"und Landschaften, in denen das Flüstern von Jahrhunderten verborgen ist. "
+"Von den üppigen Tälern der Wicklow Mountains bis zu den sagenumwobenen "
+"Steinen von Kilkenny Castle führt jede Kurve der Straße zu neuen "
+"Abenteuern voller Mythen und Sagen, die den Kern des irischen Erbes "
+"ausmachen.\n"
+"<br>\n"
+"Ihre Reiseroute entfaltet sich wie eine ausgetretene Karte der "
+"Vergangenheit und führt Sie zu mystischen Stätten wie Brú na Bóinne, wo "
+"antike Gräber aus der Zeit vor den Pyramiden Ägyptens stammen, und zu "
+"lebendigen Städten, in denen die Vergangenheit so greifbar ist wie die "
+"Steine unter Ihren Füßen. Egal, ob Sie die ruhige Schönheit von "
+"Glendalough oder die heiligen Hallen sagenumwobener Klöster erkunden, "
+"Irlands historischer Osten verspricht eine Fülle von Erlebnissen, die die"
+" Schönheit der Natur mit den unauslöschlichen Spuren der Geschichte "
+"verbinden.\n"
+"<br>\n"
+"Hier, wo jeder Weg eine Geschichte hat, wird Ihre Reise mehr als nur eine"
+" Passage durch Sehenswürdigkeiten sein; Es wird ein immersiver Tauchgang "
+"in eine Welt sein, in der Legenden leben und atmen. Willkommen im "
+"historischen Osten Irlands, wo die Geschichte auf Schritt und Tritt auf "
+"Sie wartet. <h4>Scrollen Sie nach unten für mehr</h4>"
+
+#: templates/itinerary.html:31
+msgid "Map of Ireland"
+msgstr "Karte von Irland"
+
+#: templates/itinerary.html:38
+msgid "Places and Events"
+msgstr "Orte und Ereignisse"
+
+#: templates/itinerary.html:40
+msgid ""
+"Ireland's Ancient East is a region of profound historical and cultural "
+"significance, offering a range of attractions that showcase Ireland's "
+"heritage, from ancient times to modern day. Some of the must-visit places"
+" include:"
+msgstr ""
+"Irlands historischer Osten ist eine Region von tiefgreifender "
+"historischer und kultureller Bedeutung und bietet eine Reihe von "
+"Attraktionen, die das Erbe Irlands von der Antike bis zur Gegenwart "
+"zeigen. Zu den Orten, die man unbedingt besuchen muss, gehören:"
+
+#: templates/includes/de/hero.html:28 templates/includes/en/hero.html:28
+#: templates/includes/hero.html:28 templates/includes/it/hero.html:28
+msgid ""
+"Experience Ireland's Ancient East where vibrant history and modern life "
+"meet. Enjoy memorable food experiences, wander down the cobbled streets "
+"of medieval towns and explore the gorgeous gardens of this scenic region."
+"\n"
+"      <br><br>\n"
+"      Hear local legends and mythical tales of the east of Ireland on a "
+"lively walking tour or travel back in time at an ancient monastic site. "
+"Head on an epic mountain hike and after, experience the cultural riches "
+"of the incredible cities."
+msgstr ""
+"Erleben Sie Irlands historischen Osten, wo lebendige Geschichte und "
+"modernes Leben aufeinandertreffen. Genießen Sie unvergessliche "
+"kulinarische Erlebnisse, schlendern Sie durch die gepflasterten Straßen "
+"mittelalterlicher Städte und erkunden Sie die wunderschönen Gärten dieser"
+" malerischen Region.\n"
+"<br><br>\n"
+"Hören Sie bei einem unterhaltsamen Rundgang lokale Legenden und mythische"
+" Geschichten aus dem Osten Irlands oder reisen Sie an einer alten "
+"Klosterstätte in die Vergangenheit. Begeben Sie sich auf eine epische "
+"Bergwanderung und erleben Sie anschließend den kulturellen Reichtum der "
+"unglaublichen Städte."
+
+#: templates/includes/de/hero.html:66 templates/includes/en/hero.html:66
+#: templates/includes/hero.html:66 templates/includes/it/hero.html:66
+msgid ""
+"Ireland's Ancient East is a remarkable region that invites tourists to "
+"delve into over 5,000 years of European history. \n"
+"            This tranquil land is not only known for its green hills, "
+"charming towns, and calm waters but also for being steeped in history "
+"that ranges from the Celtic times to the modern age."
+msgstr ""
+"Irlands alter Osten ist eine bemerkenswerte Region, die Touristen dazu "
+"einlädt, in über 5.000 Jahre europäische Geschichte einzutauchen. Dieses "
+"ruhige Land ist nicht nur für seine grünen Hügel, charmanten Städte und "
+"ruhigen Gewässer bekannt, sondern auch für seine lange Geschichte, die "
+"von der Keltenzeit bis zur Moderne reicht."
+
+#: templates/includes/de/hero.html:71 templates/includes/en/hero.html:71
+#: templates/includes/hero.html:71 templates/includes/it/hero.html:71
+msgid ""
+"Here, you can have an intimate experience with history, like stepping "
+"inside a monument that has withstood millennia or enjoying the view from "
+"atop a 13th-century lighthouse. \n"
+"            Places like the Rock of Cashel in County Tipperary offer a "
+"glimpse into Ireland's majestic past."
+msgstr ""
+"Hier können Sie die Geschichte hautnah erleben, indem Sie beispielsweise "
+"ein Denkmal betreten, das Jahrtausende überdauert hat, oder die Aussicht "
+"von einem Leuchtturm aus dem 13. Jahrhundert genießen. Orte wie der Rock "
+"of Cashel in der Grafschaft Tipperary bieten einen Einblick in die "
+"majestätische Vergangenheit Irlands."
+
+#: templates/includes/de/hero.html:76 templates/includes/en/hero.html:76
+#: templates/includes/hero.html:76 templates/includes/it/hero.html:76
+msgid ""
+"The journey through Ireland's Ancient East isnt just about visiting "
+"places; it's about the stories that have shaped Ireland. You can ride the"
+" waves to Spike Island in Cork, \n"
+"            walk through the medieval streets of Waterford, or ponder the"
+" ancient myths atop the Hill of Tara in Meath."
+msgstr ""
+"Bei der Reise durch den historischen Osten Irlands geht es nicht nur "
+"darum, Orte zu besuchen; Es geht um die Geschichten, die Irland geprägt "
+"haben. Sie können auf den Wellen nach Spike Island in Cork reiten, durch "
+"die mittelalterlichen Straßen von Waterford spazieren oder auf dem Hügel "
+"von Tara in Meath über die alten Mythen nachdenken."
+
+#: templates/includes/de/navbar.html:22 templates/includes/en/navbar.html:22
+#: templates/includes/it/navbar.html:22 templates/includes/navbar.html:22
+msgid "Home"
+msgstr "Heim"
+
+#: templates/includes/de/navbar.html:25 templates/includes/en/navbar.html:25
+#: templates/includes/it/navbar.html:25 templates/includes/navbar.html:25
+msgid "Itinerary"
+msgstr "Route"
+
+#: templates/includes/de/navbar.html:28 templates/includes/en/navbar.html:28
+#: templates/includes/it/navbar.html:28 templates/includes/navbar.html:28
+msgid "Events"
+msgstr "Veranstaltungen"
+
+#: templates/includes/de/navbar.html:31 templates/includes/en/navbar.html:31
+#: templates/includes/it/navbar.html:31 templates/includes/navbar.html:31
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/includes/de/navbar.html:35 templates/includes/en/navbar.html:35
+#: templates/includes/it/navbar.html:35 templates/includes/navbar.html:35
+msgid "Language"
+msgstr "Sprache"
+
+#: templates/includes/de/navbar.html:38 templates/includes/en/navbar.html:38
+#: templates/includes/it/navbar.html:38 templates/includes/navbar.html:38
+msgid "English"
+msgstr "Englisch"
+
+#: templates/includes/de/navbar.html:39 templates/includes/en/navbar.html:39
+#: templates/includes/it/navbar.html:39 templates/includes/navbar.html:39
+msgid "German"
+msgstr "Deutsch"
+
+#: templates/includes/de/navbar.html:40 templates/includes/en/navbar.html:40
+#: templates/includes/it/navbar.html:40 templates/includes/navbar.html:40
+msgid "Italian"
+msgstr "Italienisch"
+
