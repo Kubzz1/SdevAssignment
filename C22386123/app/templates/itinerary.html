@@ -17,14 +17,14 @@
 
 {% block main %}
 
-<h1>Itinerary</h1>
+<h1>{{_('Itinerary')}}</h1>
 
 <div class="container-4">
     <div class="image-box">
         <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/wtd.jpg') }}" class="d-block w-100" alt="Image 3">
     </div>
     <div class="text-box"> 
-      <h2>What Can You Do In Ireland?</h2>
+      <h2>{{_('What Can You Do In Ireland?')}}</h2>
       <p>
         {{_('Embark on a timeless journey through Ireland\'s Ancient East, a treasured land woven with legendary tales, historic footsteps, and landscapes that hold the whispers of centuries.
         From the lush valleys of the Wicklow Mountains to the storied stones of Kilkenny Castle, each bend in the road leads to new adventures steeped in the myths and sagas that are the heart of Ireland\'s heritage.
@@ -61,13 +61,13 @@
         <h3>Brehon Brewhouse</h3>
         <p><i class="fa-solid fa-location-dot"></i> Inniskeen, Co. Monaghan</p>
         <p>
-            Brehon Brewhouse offers an engaging experience for those interested in craft beer and Irish history. Located in County Monaghan, the brewhouse sits among the rolling landscapes near Inniskeen, just a few miles from the birthplace of the famed Irish poet Patrick Kavanagh. The brewhouse itself is a venture by dairy farmer Seamus McMahon, who began the brewery on his family farm, blending the tradition of brewing with his family's history in dairy farming.
+            {{_('Brehon Brewhouse offers an engaging experience for those interested in craft beer and Irish history. Located in County Monaghan, the brewhouse sits among the rolling landscapes near Inniskeen, just a few miles from the birthplace of the famed Irish poet Patrick Kavanagh. The brewhouse itself is a venture by dairy farmer Seamus McMahon, who began the brewery on his family farm, blending the tradition of brewing with his family\'s history in dairy farming.
             <br><br>
-            <i class="fa-solid fa-car"></i> To get there, it's best to have your own transportation as the brewhouse is located off the beaten path, in the countryside. Tours are usually available on Saturdays, and for larger groups, arrangements can be made for other days. Given its location, the approach is likely to involve smaller country roads typical of rural Ireland. You can contact the brewhouse directly to inquire about the best routes and any transportation advice they might have for your visit.
+            <i class="fa-solid fa-car"></i> To get there, it\'s best to have your own transportation as the brewhouse is located off the beaten path, in the countryside. Tours are usually available on Saturdays, and for larger groups, arrangements can be made for other days. Given its location, the approach is likely to involve smaller country roads typical of rural Ireland. You can contact the brewhouse directly to inquire about the best routes and any transportation advice they might have for your visit.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i> Brehon Brewhouse takes safety and security seriously, ensuring a secure environment for all visitors. The brewery is equipped with surveillance cameras and staffed by trained personnel who monitor the premises. Visitors are encouraged to be mindful of their surroundings and personal belongings. Safety protocols, including clear signage for emergency exits and access to first aid, are rigorously enforced to provide a safe and enjoyable experience for everyone touring or tasting at Brehon Brewhouse.
             <br><br>
-            For more information and to plan your visit, you can reach out to Brehon Brewhouse at +353 86 823 0914 or visit their official website (<a href="https://brehonbrewhouse.ie/">Here</a>)
+            For more information and to plan your visit, you can reach out to Brehon Brewhouse at +353 86 823 0914 or visit their official website (<a href="https://brehonbrewhouse.ie/">Here</a>)')}}
         </p>
       </div>
     </div>
@@ -77,13 +77,13 @@
           <h3>Waterford Estuary Coastal Path – Dunmore East to Ballymacaw</h3>
           <p><i class="fa-solid fa-location-dot"></i> Dunmore East, Co. Waterford</p>
           <p>
-            The Waterford Estuary Coastal Path stretches from Dunmore East to Ballymacaw Cove and is a linear walk that promises stunning views and a chance to explore the natural beauty of the Waterford coast. The route is moderately challenging and includes steps, stiles, footbridges, and stream crossings. It is approximately 7 kilometers long and offers an immersive experience with sights of rugged cliffs and the opportunity to observe local wildlife such as birds and possibly seals.
+            {{_('The Waterford Estuary Coastal Path stretches from Dunmore East to Ballymacaw Cove and is a linear walk that promises stunning views and a chance to explore the natural beauty of the Waterford coast. The route is moderately challenging and includes steps, stiles, footbridges, and stream crossings. It is approximately 7 kilometers long and offers an immersive experience with sights of rugged cliffs and the opportunity to observe local wildlife such as birds and possibly seals.
             <br><br>
-            <i class="fa-solid fa-car"></i> To reach the Waterford Estuary Coastal Path, which starts at Dunmore East Harbour Car Park, you can drive there directly and park at the designated car park. If you're using public transport, buses serve Waterford City, from where you can catch a local bus or taxi to Dunmore East. It’s recommended to check the latest schedules and routes with local transport services before you travel.
+            <i class="fa-solid fa-car"></i> To reach the Waterford Estuary Coastal Path, which starts at Dunmore East Harbour Car Park, you can drive there directly and park at the designated car park. If you\'re using public transport, buses serve Waterford City, from where you can catch a local bus or taxi to Dunmore East. It’s recommended to check the latest schedules and routes with local transport services before you travel.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i> The Waterford Estuary Coastal Path from Dunmore East to Ballymacaw is well-maintained for safety, with clear signage and regular path inspections. Hikers are advised to stay on marked trails, heed weather warnings, and exercise caution near cliff edges. While the trail lacks CCTV, mobile phone coverage is generally available for emergencies. By following these guidelines, visitors can safely enjoy the stunning coastal views this path offers.
             <br><br>
-            Click <a href="https://www.discoverireland.ie/waterford/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw">Here</a> for more information
+            Click <a href="https://www.discoverireland.ie/waterford/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw">Here</a> for more information')}}
           </p>
         </div>
       </div>
@@ -93,14 +93,14 @@
           <h3>Powerscourt House & Gardens</h3>
           <p><i class="fa-solid fa-location-dot"></i> Enniskerry, Co. Wicklow</p>
           <p>
-            Powerscourt House & Gardens is a renowned historical estate located in County Wicklow, Ireland, known for its exquisite 18th-century gardens and Palladian architecture. The estate covers approximately 47 acres and includes beautifully landscaped gardens, sweeping terraces, ornamental lakes, and over 200 varieties of trees and shrubs.
+            {{_('Powerscourt House & Gardens is a renowned historical estate located in County Wicklow, Ireland, known for its exquisite 18th-century gardens and Palladian architecture. The estate covers approximately 47 acres and includes beautifully landscaped gardens, sweeping terraces, ornamental lakes, and over 200 varieties of trees and shrubs.
             <br><br>
             <i class="fa-solid fa-car"></i> Powerscourt is situated in Enniskerry, County Wicklow, about 20 kilometers south of Dublin. It can be reached by car via the M11 motorway which leads to the N11 towards Wicklow, then taking the exit for Enniskerry and following the signs to Powerscourt Estate. Public transportation options include buses from Dublin city center which can drop visitors nearby, and then a short taxi ride can be taken to the estate.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i> 
             Powerscourt House & Gardens places a strong emphasis on the safety and security of its visitors. The estate is monitored by trained security personnel and equipped with CCTV systems to ensure a secure environment throughout its expansive grounds and facilities. Visitors are encouraged to keep their belongings close and be aware of their surroundings, particularly in busier areas. Comprehensive safety measures, including clearly marked emergency exits and available first aid, are implemented across the venue to promptly address any incidents. With these precautions in place, guests can comfortably enjoy the stunning beauty and historical richness of Powerscourt House & Gardens.
             <br><br>
-            For more information about Powerscourt House & Gardens, including details about ticket prices, opening hours, special events, and more, you can visit their official website. Additionally, you may contact them directly via phone or email for any specific inquiries or to arrange group visits. <a href="https://powerscourt.com/">Here</a>
+            For more information about Powerscourt House & Gardens, including details about ticket prices, opening hours, special events, and more, you can visit their official website. Additionally, you may contact them directly via phone or email for any specific inquiries or to arrange group visits. <a href="https://powerscourt.com/">Here</a>')}}
           </p>
         </div>
       </div>
@@ -110,13 +110,13 @@
           <h3>Hysterical Histories Cork - Dinner Theatre Experience</h3>
           <p><i class="fa-solid fa-location-dot"></i> Cork City, Co. Cork</p>
           <p>
-            Hysterical Histories Cork - Dinner Theatre Experience offers a unique and engaging way to explore Cork's rich history through a blend of dining and entertainment. This comedic dinner theater is set in the Amicus Restaurant, located in Cork’s historic Huguenot Quarter, where you'll be treated to a lively and entertaining performance by professional actors. The show dives into 1500 years of Cork's history, featuring quirky characters, local humor, and interactive storytelling, all accompanied by live music.
+            {{_('Hysterical Histories Cork - Dinner Theatre Experience offers a unique and engaging way to explore Cork\'s rich history through a blend of dining and entertainment. This comedic dinner theater is set in the Amicus Restaurant, located in Cork\'s historic Huguenot Quarter, where you\'ll be treated to a lively and entertaining performance by professional actors. The show dives into 1500 years of Cork\'s history, featuring quirky characters, local humor, and interactive storytelling, all accompanied by live music.
             <br><br>
             <i class="fa-solid fa-car"></i> The venue is centrally located at An Spailpin Fanach on South Main Street, making it easily accessible. For those driving, nearby parking is available at Q-park Grande Parade or South Main Street exits. The nearest bus and taxi stops are also at Grande Parade, which is convenient for those using public transportation​.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i>The "Hysterical Histories Cork" dinner theatre experience prioritizes the safety and security of its guests. The venue is equipped with trained security personnel who are on hand to ensure the evening proceeds smoothly and securely. Surveillance systems are typically in operation throughout the space to maintain a safe environment. Visitors are encouraged to look after their personal belongings and remain observant, although the atmosphere is generally relaxed and secure. Standard safety measures, including clear signage for emergency exits and the availability of first aid, are rigorously maintained to address any potential emergencies promptly. This ensures that guests can enjoy the theatrical and culinary delights without concern.
             <br><br>
-            For more detailed information, including booking and specific show times, visiting the official Hysterical Histories website or the venue's page could provide additional insights and help in planning your visit. (<a href="https://www.hystericalhistories.ie/">Here</a>)
+            For more detailed information, including booking and specific show times, visiting the official Hysterical Histories website or the venue\'s page could provide additional insights and help in planning your visit. (<a href="https://www.hystericalhistories.ie/">Here</a>)')}}
           </p>
         </div>
       </div>
@@ -126,13 +126,13 @@
           <h3>Exhibition: Dundalk Photographic Society 2024</h3>
           <p><i class="fa-solid fa-location-dot"></i> Dundalk, Co. Louth</p>
           <p>
-            The Exhibition: Dundalk Photographic Society 2024 will be held from April 23 to May 4, 2024, at An Táin Arts Centre in Dundalk, County Louth. Celebrating its 45th year since its founding, the exhibition showcases the recent works of its members, highlighting both the domestic and international successes of the club. The opening launch of the exhibition is scheduled for April 20, 2024, at 7 PM.
+            {{_('The Exhibition: Dundalk Photographic Society 2024 will be held from April 23 to May 4, 2024, at An Táin Arts Centre in Dundalk, County Louth. Celebrating its 45th year since its founding, the exhibition showcases the recent works of its members, highlighting both the domestic and international successes of the club. The opening launch of the exhibition is scheduled for April 20, 2024, at 7 PM.
             <br><br>           
             <i class="fa-solid fa-car"></i> For transportation to An Táin Arts Centre in Dundalk, visitors can utilize public buses that serve the area, as it is centrally located within the town. For those driving, there are parking facilities nearby, making it convenient to access the venue. Additionally, the Dundalk train station is not far from the centre, offering good connectivity for those coming from other parts of Ireland.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i> The safety and security at the Dundalk Photographic Society Exhibition 2024 is well-managed to ensure a safe environment for all attendees. The venue typically employs trained security personnel to monitor the event and handle any issues that may arise. Surveillance cameras are likely in use to further enhance security. Visitors are encouraged to keep their personal belongings secure and stay aware of their surroundings. Standard safety protocols, including emergency exits and first aid facilities, are in place to handle any emergencies. Overall, the exhibition provides a secure setting for enjoying the photographic displays.
             <br><br>
-            Click <a href="https://www.antain.ie/event/exhibition-dundalk-photographic-society-2024/">Here</a> for More Information
+            Click <a href="https://www.antain.ie/event/exhibition-dundalk-photographic-society-2024/">Here</a> for More Information')}}
           </p>
         </div>
       </div>
@@ -142,13 +142,13 @@
           <h3>Temple Bar Dubin</h3>
           <p><i class="fa-solid fa-location-dot"></i> Temple Bar, Co. Dublin</p>
           <p>
-            Temple Bar is a bustling cultural and nightlife district in Dublin, Ireland, renowned for its vibrant atmosphere, historic cobblestone streets, and array of pubs, galleries, restaurants, and boutiques. Known as Dublin's cultural quarter, it's a popular spot for tourists and locals alike, offering a mix of Irish traditional music and modern entertainment.
+            {{_('Temple Bar is a bustling cultural and nightlife district in Dublin, Ireland, renowned for its vibrant atmosphere, historic cobblestone streets, and array of pubs, galleries, restaurants, and boutiques. Known as Dublin\'s cultural quarter, it\'s a popular spot for tourists and locals alike, offering a mix of Irish traditional music and modern entertainment.
             <br><br>
-            <i class="fa-solid fa-car"></i> To reach Temple Bar, you have several convenient options. It's within easy walking distance of many central Dublin landmarks, making it accessible on foot. Public transport options include numerous Dublin Bus routes that pass close by, especially along the nearby Dame Street. The Luas tram system has stops at Jervis and St. Stephen's Green, each just a short stroll from Temple Bar. For those coming by train, the closest railway stations are Tara Street and Pearse Street, both about a ten-minute walk away. These various transport links make Temple Bar readily accessible from virtually any part of Dublin.
+            <i class="fa-solid fa-car"></i> To reach Temple Bar, you have several convenient options. It\'s within easy walking distance of many central Dublin landmarks, making it accessible on foot. Public transport options include numerous Dublin Bus routes that pass close by, especially along the nearby Dame Street. The Luas tram system has stops at Jervis and St. Stephen\'s Green, each just a short stroll from Temple Bar. For those coming by train, the closest railway stations are Tara Street and Pearse Street, both about a ten-minute walk away. These various transport links make Temple Bar readily accessible from virtually any part of Dublin.
             <br><br>
             <i class="fa-solid fa-helmet-safety"></i> Temple Bar is generally considered safe for visitors. However, like any busy urban area, it can attract pickpockets and petty crime, especially late at night when the bars are busiest. Tourists are advised to be aware of their surroundings and take standard precautions to safeguard their belongings.
             <br><br>
-            Click <a href="https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB">Here</a> for More Information
+            Click <a href="https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB">Here</a> for More Information')}}
           </p>
         </div>
       </div>
