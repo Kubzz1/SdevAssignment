@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 17:30+0100\n"
+"POT-Creation-Date: 2024-04-22 17:59+0100\n"
 "PO-Revision-Date: 2024-04-22 15:38+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -604,6 +604,121 @@ msgstr "Tedesco"
 #: templates/includes/it/navbar.html:40 templates/includes/navbar.html:40
 msgid "Italian"
 msgstr "Italiano"
+
+#: templates/includes/de/hero.html:24 templates/includes/en/hero.html:24
+#: templates/includes/it/hero.html:24
+msgid "Uncover Ireland's Ancient East"
+msgstr "Scopri l'Ancient East dell'Irlanda"
+
+
+#: templates/includes/de/hero.html:37 templates/includes/en/hero.html:37
+#: templates/includes/it/hero.html:37
+msgid "KeepDiscovering"
+msgstr "Continua a scoprire"
+
+
+#: templates/includes/de/hero.html:38 templates/includes/en/hero.html:38
+#: templates/includes/it/hero.html:38
+msgid "Ireland's Ancient East is ready for you"
+msgstr "L'Ancient East dell'Irlanda è pronto per te"
+
+
+#: templates/includes/de/hero.html:39 templates/includes/en/hero.html:39
+#: templates/includes/it/hero.html:39
+msgid ""
+"Set off on a journey through the Wicklow Mountains, visit stunning "
+"castles, enjoy incredible food and so much more."
+msgstr "Intraprendi un viaggio attraverso i Monti Wicklow, visita castelli stupendi, gusta cibo incredibile e molto altro ancora."
+
+
+#: templates/includes/de/hero.html:46 templates/includes/de/hero.html:106
+#: templates/includes/en/hero.html:46 templates/includes/en/hero.html:106
+#: templates/includes/it/hero.html:46 templates/includes/it/hero.html:106
+msgid "History and Heritage"
+msgstr "Storia e Patrimonio"
+
+
+#: templates/includes/de/hero.html:47 templates/includes/en/hero.html:47
+#: templates/includes/it/hero.html:47
+msgid "10 fascinating facts about Ireland's Ancient East"
+msgstr "10 fatti affascinanti sull'Ancient East dell'Irlanda"
+
+
+#: templates/includes/de/hero.html:51 templates/includes/de/hero.html:95
+#: templates/includes/en/hero.html:51 templates/includes/en/hero.html:95
+#: templates/includes/it/hero.html:51 templates/includes/it/hero.html:95
+msgid "Family Fun"
+msgstr "Divertimento in Famiglia"
+
+
+#: templates/includes/de/hero.html:52 templates/includes/en/hero.html:52
+#: templates/includes/it/hero.html:52
+msgid "10 ideas for families exploring Ireland's Ancient East"
+msgstr "10 idee per le famiglie che esplorano l'Ancient East dell'Irlanda"
+
+
+#: templates/includes/de/hero.html:56 templates/includes/en/hero.html:56
+#: templates/includes/it/hero.html:56
+msgid "Houses and Gardens"
+msgstr "Case e Giardini"
+
+
+#: templates/includes/de/hero.html:57 templates/includes/en/hero.html:57
+#: templates/includes/it/hero.html:57
+msgid "Discover the gardens of Ireland's Ancient East"
+msgstr "Scopri i giardini dell'Ancient East dell'Irlanda"
+
+
+#: templates/includes/de/hero.html:64 templates/includes/en/hero.html:64
+#: templates/includes/it/hero.html:64
+msgid "Start Exploring"
+msgstr "Inizia a esplorare"
+
+
+#: templates/includes/de/hero.html:86 templates/includes/en/hero.html:86
+#: templates/includes/it/hero.html:86
+msgid "Start your adventure"
+msgstr "Inizia la tua avventura"
+
+
+#: templates/includes/de/hero.html:87 templates/includes/en/hero.html:87
+#: templates/includes/it/hero.html:87
+msgid "Explore Ireland's Ancient East and find your dream getaway."
+msgstr "Esplora l'Ancient East dell'Irlanda e trova la tua vacanza da sogno."
+
+
+#: templates/includes/de/hero.html:96 templates/includes/en/hero.html:96
+#: templates/includes/it/hero.html:96
+msgid "Why you have to visit The Irish National Stud and Gardens"
+msgstr "Perché devi visitare lo Stud Nazionale Irlandese e i Giardini"
+
+
+#: templates/includes/de/hero.html:98 templates/includes/de/hero.html:109
+#: templates/includes/de/hero.html:120 templates/includes/en/hero.html:98
+#: templates/includes/en/hero.html:109 templates/includes/en/hero.html:120
+#: templates/includes/it/hero.html:98 templates/includes/it/hero.html:109
+#: templates/includes/it/hero.html:120
+msgid "Click Here"
+msgstr "Clicca qui"
+
+
+#: templates/includes/de/hero.html:107 templates/includes/en/hero.html:107
+#: templates/includes/it/hero.html:107
+msgid "Why you'll want to visit Meath's Brú na Bóinne"
+msgstr "Perché vorrai visitare il Brú na Bóinne di Meath"
+
+
+#: templates/includes/de/hero.html:117 templates/includes/en/hero.html:117
+#: templates/includes/it/hero.html:117
+msgid "The Great Outdoors"
+msgstr "La Grande Natura"
+
+
+#: templates/includes/de/hero.html:118 templates/includes/en/hero.html:118
+#: templates/includes/it/hero.html:118
+msgid "Explore Monaghan – Ireland's best kept secret"
+msgstr "Esplora Monaghan – Il segreto meglio custodito dell'Irlanda"
+
 
 #~ msgid ""
 #~ "Embark on a timeless journey through "

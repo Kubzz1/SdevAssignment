@@ -21,7 +21,7 @@
   </div>
 
   <header>
-    <h1>Uncover Ireland's Ancient East</h1>
+    <h1>{{_('Uncover Ireland\'s Ancient East')}}</h1>
   </header>
 
   <section class="content">
@@ -34,34 +34,34 @@
 
   <div class="container-1">
     <section class="hero">
-        <h1>KeepDiscovering</h1>
-        <h2>Ireland's Ancient East is ready for you</h2>
-        <p>Set off on a journey through the Wicklow Mountains, visit stunning castles, enjoy incredible food and so much more.</p>
+        <h1>{{_('KeepDiscovering')}}</h1>
+        <h2>{{_('Ireland\'s Ancient East is ready for you')}}</h2>
+        <p>{{_('Set off on a journey through the Wicklow Mountains, visit stunning castles, enjoy incredible food and so much more.')}}</p>
         <a href="{{ url_for('itinerary') }}" class="btn-more">Itinerary</a>
     </section>
     
     <section class="cards">
         <div class="card">
             <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/handh.webp') }}" class="d-block w-100" alt="Image 3">
-            <h3>History and Heritage</h3>
-            <p>10 fascinating facts about Ireland's Ancient East</p>
+            <h3>{{_('History and Heritage')}}</h3>
+            <p>{{_('10 fascinating facts about Ireland\'s Ancient East')}}</p>
         </div>
         <div class="card">
             <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/famfun.jpg') }}" class="d-block w-100" alt="Image 3">
-            <h3>Family Fun</h3>
-            <p>10 ideas for families exploring Ireland's Ancient East</p>
+            <h3>{{_('Family Fun')}}</h3>
+            <p>{{_('10 ideas for families exploring Ireland\'s Ancient East')}}</p>
         </div>
         <div class="card">
             <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/handgard.jpg') }}" class="d-block w-100" alt="Image 3">
-            <h3>Houses and Gardens</h3>
-            <p>Discover the gardens of Ireland's Ancient East</p>
+            <h3>{{_('Houses and Gardens')}}</h3>
+            <p>{{_('Discover the gardens of Ireland\'s Ancient East')}}</p>
         </div>
     </section>
 </div>
 
 <div class="container-2">
     <div class="text-section">
-        <h1>Start Exploring</h1>
+        <h1>{{_('Start Exploring')}}</h1>
         <p>
             {{_('Ireland\'s Ancient East is a remarkable region that invites tourists to delve into over 5,000 years of European history. 
             This tranquil land is not only known for its green hills, charming towns, and calm waters but also for being steeped in history that ranges from the Celtic times to the modern age.')}}
@@ -83,8 +83,8 @@
 </div>
 
 <div class="header">
-    <h1>Start your adventure</h1>
-    <p>Explore Ireland's Ancient East and find your dream getaway.</p>
+    <h1>{{_('Start your adventure')}}</h1>
+    <p>{{_('Explore Ireland\'s Ancient East and find your dream getaway.')}}</p>
   </div>
   
   <div class="card-container">
@@ -92,10 +92,10 @@
     <div class="card1">
       <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/stud.jpg') }}" class="d-block w-100" alt="Image 3">
       <div class="card-content">
-        <p class="category">Family Fun</p>
-        <h3 class="card-title">Why you have to visit The Irish National Stud and Gardens</h3>
+        <p class="category">{{_('Family Fun')}}</p>
+        <h3 class="card-title">{{_('Why you have to visit The Irish National Stud and Gardens')}}</h3>
         <p class="location">© Co. Kildare</p>
-        <a href="https://irishnationalstud.ie/">Click Here</a>
+        <a href="https://irishnationalstud.ie/">{{_('Click Here')}}</a>
       </div>
     </div>
     
@@ -103,10 +103,10 @@
     <div class="card1">
       <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/meath.jpg') }}" class="d-block w-100" alt="Image 3">
       <div class="card-content">
-        <p class="category">History and Heritage</p>
-        <h3 class="card-title">Why you'll want to visit Meath's Brú na Bóinne</h3>
+        <p class="category">{{_('History and Heritage')}}</p>
+        <h3 class="card-title">{{_('Why you\'ll want to visit Meath\'s Brú na Bóinne')}}</h3>
         <p class="location">© The Boyne Valley</p>
-        <a href="https://heritageireland.ie/">Click Here</a>
+        <a href="https://heritageireland.ie/">{{_('Click Here')}}</a>
       </div>
     </div>
     
@@ -114,10 +114,10 @@
     <div class="card1">
       <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/monaghan.jpg') }}" class="d-block w-100" alt="Image 3">
       <div class="card-content">
-        <p class="category">The Great Outdoors</p>
-        <h3 class="card-title">Explore Monaghan – Ireland's best kept secret</h3>
+        <p class="category">{{_('The Great Outdoors')}}</p>
+        <h3 class="card-title">{{_('Explore Monaghan – Ireland\'s best kept secret')}}</h3>
         <p class="location">© Co. Monaghan</p>
-        <a href="https://www.discoverireland.ie/monaghan/explore-monaghan">Click Here</a>
+        <a href="https://www.discoverireland.ie/monaghan/explore-monaghan">{{_('Click Here')}}</a>
       </div>
     </div>
   </div>
