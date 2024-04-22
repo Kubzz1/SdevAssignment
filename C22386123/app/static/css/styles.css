@@ -2,39 +2,6 @@ body {
     background-color: whitesmoke;
 }
 
-.navbar {
-    padding: 0;
-    margin: 0;
-    background-color: #f8f9fa; 
-  }
-  
-  /* Style the navbar brand/logo */
-  .navbar-brand {
-    font-size: 1.5em; 
-    color: green; 
-  }
-   
-  .navbar .d-flex {
-    flex: 1;
-    justify-content: center;
-    padding-top: 15px;
-  }
-  
-  .navbar .form-control {
-    border: 2px solid #ccc; 
-    border-radius: 2rem; 
-  }
-  
-  .navbar .btn {
-    border: 2px solid #ff6c2c; 
-    color: #ff6c2c; 
-  }
-  
-  .fa-solid {
-    margin-right: 5px; 
-  }
-  
-
   .contact-container {
     max-width: 600px;
     margin: 50px auto;
