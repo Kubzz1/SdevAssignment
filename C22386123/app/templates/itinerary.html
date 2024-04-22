@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
+{% block head %}
+    <!-- Dynamic stylesheet based on language code -->
+    {% if lang_code == 'en' %}
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}">
+    {% elif lang_code == 'de' %}
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}">
+    {% elif lang_code == 'it' %}
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/' + lang_code + '/localstyle.css') }}">
+    {% endif %}
+{% endblock %}
+
 {% block navigation %}
     {% include 'includes/' + lang_code + '/navbar.html' %}  
 {% endblock %}
