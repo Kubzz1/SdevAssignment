@@ -1,5 +1,5 @@
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='assets/img/' + '/logo-multi.svg') }}" alt="..." />
@@ -17,7 +17,7 @@
   </nav>
   
   <!-- Centered links and icons under the search bar -->
-  <div class="links text-center">
+  <div class="links text-center bg-body-tertiary ">
     <div class="d-inline-block m-3">
       <a class="d-block nav-link" href="{{ url_for('index') }}"><i class="fa-solid fa-house"></i><br> {{_('Home')}}</a>
     </div>
