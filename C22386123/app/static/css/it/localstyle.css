@@ -151,16 +151,34 @@ body, html {
     font-size: 15px;
 }
 
-.container-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
+/* More info of exploring with Buttons for Interactivity for user */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 10px;
+}
+
+.container-2, .container-row {
+  flex: 1;
+  padding: 10px;
+  margin: auto;
+}
+
+.container-row h3{
+  text-align: center;
 }
 
 .text-section {
     flex-basis: 60%; 
     /* padding-right: 2.5rem;  */
-    text-align: center;
+    /* text-align: center; */
     font-size: 15px;
 }
 
@@ -176,6 +194,38 @@ body, html {
     padding-left: 2.5rem; */
 }
 
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.grid-item button {
+  padding: 10px 20px; 
+  background-color: #7f0404; 
+  color: white; 
+  border-radius: 5px;
+  border-color: #006400;
+  cursor: pointer;
+}
+
+.grid-item button:hover {
+  background-color: #4b0101; 
+}
+
+
+/* Stuff for Container-3 */
 .container-3 {
     display: flex;
   }
@@ -263,6 +313,7 @@ body, html {
   /*  */
 
   .footer {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

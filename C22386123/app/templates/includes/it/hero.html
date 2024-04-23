@@ -60,10 +60,10 @@
     </button>
   </div> -->
 
+  <!-- Introduction -->
   <header>
     <h1>{{_('Uncover Ireland\'s Ancient East')}}</h1>
   </header>
-
   <section class="content">
     <p>{{_('Experience Ireland\'s Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.
       <br><br>
@@ -72,6 +72,7 @@
    
   </section>
 
+  <!-- Keep Discovering -->
   <div class="container-1">
     <section class="hero">
         <h1>{{_('KeepDiscovering')}}</h1>
@@ -80,6 +81,7 @@
         <a href="{{ url_for('itinerary') }}" class="btn-more">Itinerary</a>
     </section>
 
+    <!-- Info About Music, Culture, Events -->
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7">
@@ -158,29 +160,51 @@
     </section>
 </div> -->
 
-<div class="container-2">
+<!-- Info about Start Exploring Culture with some places on the side and a youtube video -->
+<div class="row-flex">
+  <div class="container-2">
     <div class="text-section">
-        <h1>{{_('Start Exploring')}}</h1>
+        <h1>{{_('Start Exploring Irish Music and Culture')}}</h1>
         <p>
-            {{_('Ireland\'s Ancient East is a remarkable region that invites tourists to delve into over 5,000 years of European history. 
-            This tranquil land is not only known for its green hills, charming towns, and calm waters but also for being steeped in history that ranges from the Celtic times to the modern age.')}}
-        </p>
-        <br>
-        <p>
-            {{_('Here, you can have an intimate experience with history, like stepping inside a monument that has withstood millennia or enjoying the view from atop a 13th-century lighthouse. 
-            Places like the Rock of Cashel in County Tipperary offer a glimpse into Ireland\'s majestic past.')}}
-        </p>
-        <br>
-        <p>
-            {{_('The journey through Ireland\'s Ancient East isnt just about visiting places; it\'s about the stories that have shaped Ireland. You can ride the waves to Spike Island in Cork, 
-            walk through the medieval streets of Waterford, or ponder the ancient myths atop the Hill of Tara in Meath.')}}
+          {{_('Irish culture is a vibrant tapestry woven with the threads of history, art, and community spirit, celebrated worldwide for its rich traditions and festive gatherings. At the heart of Irish cultural expression is its music, characterized by instruments like the fiddle, tin whistle, and bodhrán. Traditional Irish music, often performed during lively sessions in pubs and at community events, offers a direct link to Ireland\'s history and a form of storytelling that captures the struggles, joys, and the resilient spirit of the people.
+          <br>
+          Cultural events play a crucial role in sustaining these traditions, with festivals such as St. Patrick\'s Day parades and the Fleadh Cheoil drawing visitors from around the globe. These gatherings are not just celebrations but also serve as platforms for intercultural exchange and education about the deep historical roots of Irish customs. Through music and dance, storytelling sessions, and Gaelic language workshops, these events provide immersive experiences that connect individuals to the enduring heart of Irish culture.
+          <br>
+          For anyone looking to delve into Irish culture, participating in or attending these cultural festivals can be an enriching experience, offering a deeper understanding of the Irish way of life and its universal appeal.')}}
         </p>
     </div>
     <div class="image-section">
         <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}">
     </div>
+  </div>
+  
+  <div class="container-row">
+    <div class="grid-item">
+      <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/bar.jpg') }}" alt="Image 1">
+      <p>{{_('Famous Bars')}}</p>
+      <button><a href="https://www.theirishroadtrip.com/best-pubs-in-ireland-map/">{{_('Click Here')}}</a></button>
+    </div>
+    <div class="grid-item">
+      <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/concert.webp') }}" alt="Image 1">
+      <p>Irish Concerts</p>
+      <button><a href="https://www.ticketmaster.ie/browse/all-concerts-catid-10001/music-rid-10001">{{_('Click Here')}}</a></button>
+    </div>
+    <div class="grid-item">
+      <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/transport.jpg') }}" alt="Image 1">
+      <p>{{_('Transportation')}}</p>
+      <button><a href="https://www.transportforireland.ie/">{{_('Click Here')}}</a></button>
+    </div>
+    <div class="grid-item">
+      <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/hotel.webp') }}" alt="Image 1">
+      <p>{{_('Wishing to Stay')}}</p>
+      <button><a href="https://www.trivago.ie/">{{_('Click Here')}}</a></button>
+    </div>
+  </div>
 </div>
 
+
+
+<!-- Start your Adventure -->
 <div class="header">
     <h1>{{_('Start your adventure')}}</h1>
     <p>{{_('Explore Ireland\'s Ancient East and find your dream getaway.')}}</p>
