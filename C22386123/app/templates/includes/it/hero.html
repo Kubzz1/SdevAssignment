@@ -22,7 +22,7 @@
         <div class="carousel-caption">
           <h1>{{_('Live Music')}}</h1>
           <p>{{_('Immerse Irish Music to fulfill the Irish Tradition')}}</p>
-          <p><a class="btn btn-lg btn-primary" href="#">{{_('Learn more')}}</a></p>
+          <p><a class="btn btn-lg btn-primary" href="#">{{_('Learn more')}}</a></p> 
         </div>
       </div>
     </div>
@@ -89,7 +89,6 @@
     </section>
 
     <hr class="featurette-divider">
-
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">{{_('Culture')}}</h2>
@@ -112,15 +111,42 @@
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Music</h2>
+        <h2 class="featurette-heading fw-normal lh-1">{{_('Music')}}</h2>
+        <hr>
         <p>
-
+          {{_('1. Pub Culture<br>Live music is a significant part of Irish pub culture, with many pubs across the country offering live music nights. This not only includes traditional Irish music but also rock, blues, jazz, and contemporary pop. Pubs provide a platform for new artists to hone their craft and gain exposure.')}}
+        </p>
+        <p>
+          {{_('2. Street Performance<br>Busking is a common sight on the streets of Ireland\'s cities, with performers often playing both traditional Irish music and modern genres. Grafton Street in Dublin is particularly famous for street music and has been the starting point for several well-known Irish musicians, including Glen Hansard and Damien Rice.')}}
+        </p>
+        <p>
+          {{_('3. Traditional Music Sessions<br>Traditional Irish music sessions are a staple of the live music scene in Ireland. These sessions usually take place in pubs and are informal gatherings where musicians play folk tunes together. These sessions can feature a variety of instruments such as fiddles, tin whistles, flutes, uilleann pipes, and bodhráns. Towns like Doolin in County Clare and Galway City are particularly famous for their vibrant music scenes.')}}
         </p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      <div class="col-md-5 order-md-1 p-1">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/music.jpg') }}" width="500" height="500">
       </div>
     </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">{{_('Cultural Events')}}</h2>
+        <p>
+          {{_('1. St.Patrick\'s Day<br>St. Patrick\'s Day, on March 17th, is perhaps the most iconic of all Irish cultural events. It commemorates St. Patrick, Ireland\'s patron saint, and celebrates Irish culture with parades, music, dancing, and the wearing of green attire. While it\'s celebrated globally, in Ireland, the festivities are particularly vibrant, with the largest parade in Dublin attracting hundreds of thousands of visitors.')}}
+        </p>
+        <p>
+          {{_('2. Cork Jazz Festival<br>Held annually in October, the Cork Jazz Festival is one of the most significant jazz events in Europe. Since 1978, it has brought world-renowned jazz musicians to Ireland and provided a stage for emerging talents. The festival features a mix of live performances, workshops, and impromptu jam sessions across various venues in Cork city.')}}
+        </p>
+        <p>
+          {{_('3. Dublin Theatre Festival<br>Founded in 1957, the Dublin Theatre Festival is held in September and October and is Europe’s oldest specialized theatre festival. It presents an engaging lineup of international theatre as well as new and experimental Irish plays, making it a significant event in the international arts calendar.')}}
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/culture.jpg') }}" width="500" height="500">
+      </div>
+    </div>
+
     <!-- <section class="cards">
         <div class="card">
             <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/handh.webp') }}" class="d-block w-100" alt="Image 3">
@@ -159,7 +185,7 @@
         </p>
     </div>
     <div class="image-section">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}" class="d-block w-100" alt="Image 3">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}" alt="Image 3">
     </div>
 </div>
 
