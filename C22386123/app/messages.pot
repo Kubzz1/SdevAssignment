@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-22 17:59+0100\n"
+"POT-Creation-Date: 2024-04-23 21:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/includes/de/navbar.html:25 templates/includes/en/navbar.html:25
-#: templates/includes/it/navbar.html:25 templates/includes/navbar.html:25
-#: templates/itinerary.html:20
+#: templates/base.html:93 templates/includes/de/navbar.html:14
+#: templates/includes/en/navbar.html:22 templates/includes/it/navbar.html:15
+#: templates/includes/navbar.html:22
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:94
+msgid "Features"
+msgstr ""
+
+#: templates/base.html:95
+msgid "Pricing"
+msgstr ""
+
+#: templates/base.html:96
+msgid "FAQs"
+msgstr ""
+
+#: templates/base.html:97 templates/includes/de/navbar.html:23
+#: templates/includes/en/navbar.html:31 templates/includes/it/navbar.html:24
+#: templates/includes/navbar.html:31
+msgid "Contact"
+msgstr ""
+
+#: templates/contact.html:9
+msgid "Contact Us"
+msgstr ""
+
+#: templates/contact.html:11
+msgid "Name:"
+msgstr ""
+
+#: templates/contact.html:14
+msgid "Email:"
+msgstr ""
+
+#: templates/contact.html:17
+msgid "Message"
+msgstr ""
+
+#: templates/contact.html:20
+msgid "Send Message"
+msgstr ""
+
+#: templates/includes/de/hero.html:20 templates/includes/de/navbar.html:17
+#: templates/includes/en/navbar.html:25 templates/includes/it/navbar.html:18
+#: templates/includes/navbar.html:25 templates/itinerary.html:20
 msgid "Itinerary"
 msgstr ""
 
@@ -270,7 +314,7 @@ msgid ""
 " for More Information"
 msgstr ""
 
-#: templates/itinerary.html:159
+#: templates/includes/it/hero.html:194 templates/itinerary.html:159
 msgid "Transportation"
 msgstr ""
 
@@ -280,8 +324,8 @@ msgid ""
 "Destination"
 msgstr ""
 
-#: templates/includes/de/hero.html:28 templates/includes/en/hero.html:28
-#: templates/includes/hero.html:28 templates/includes/it/hero.html:28
+#: templates/includes/de/hero.html:7 templates/includes/en/hero.html:28
+#: templates/includes/hero.html:28 templates/includes/it/hero.html:68
 msgid ""
 "Experience Ireland's Ancient East where vibrant history and modern life "
 "meet. Enjoy memorable food experiences, wander down the cobbled streets "
@@ -294,8 +338,8 @@ msgid ""
 "of the incredible cities."
 msgstr ""
 
-#: templates/includes/de/hero.html:66 templates/includes/en/hero.html:66
-#: templates/includes/hero.html:66 templates/includes/it/hero.html:66
+#: templates/includes/de/hero.html:72 templates/includes/en/hero.html:66
+#: templates/includes/hero.html:66
 msgid ""
 "Ireland's Ancient East is a remarkable region that invites tourists to "
 "delve into over 5,000 years of European history. \n"
@@ -304,8 +348,8 @@ msgid ""
 "that ranges from the Celtic times to the modern age."
 msgstr ""
 
-#: templates/includes/de/hero.html:71 templates/includes/en/hero.html:71
-#: templates/includes/hero.html:71 templates/includes/it/hero.html:71
+#: templates/includes/de/hero.html:77 templates/includes/en/hero.html:71
+#: templates/includes/hero.html:71
 msgid ""
 "Here, you can have an intimate experience with history, like stepping "
 "inside a monument that has withstood millennia or enjoying the view from "
@@ -314,8 +358,8 @@ msgid ""
 "glimpse into Ireland's majestic past."
 msgstr ""
 
-#: templates/includes/de/hero.html:76 templates/includes/en/hero.html:76
-#: templates/includes/hero.html:76 templates/includes/it/hero.html:76
+#: templates/includes/de/hero.html:82 templates/includes/en/hero.html:76
+#: templates/includes/hero.html:76
 msgid ""
 "The journey through Ireland's Ancient East isnt just about visiting "
 "places; it's about the stories that have shaped Ireland. You can ride the"
@@ -324,135 +368,399 @@ msgid ""
 " ancient myths atop the Hill of Tara in Meath."
 msgstr ""
 
-#: templates/includes/de/navbar.html:22 templates/includes/en/navbar.html:22
-#: templates/includes/it/navbar.html:22 templates/includes/navbar.html:22
-msgid "Home"
-msgstr ""
-
-#: templates/includes/de/navbar.html:28 templates/includes/en/navbar.html:28
-#: templates/includes/it/navbar.html:28 templates/includes/navbar.html:28
+#: templates/includes/de/navbar.html:20 templates/includes/en/navbar.html:28
+#: templates/includes/it/navbar.html:21 templates/includes/navbar.html:28
 msgid "Events"
 msgstr ""
 
-#: templates/includes/de/navbar.html:31 templates/includes/en/navbar.html:31
-#: templates/includes/it/navbar.html:31 templates/includes/navbar.html:31
-msgid "Contact"
-msgstr ""
-
-#: templates/includes/de/navbar.html:35 templates/includes/en/navbar.html:35
-#: templates/includes/it/navbar.html:35 templates/includes/navbar.html:35
+#: templates/includes/de/navbar.html:26 templates/includes/en/navbar.html:35
+#: templates/includes/it/navbar.html:27 templates/includes/navbar.html:35
 msgid "Language"
 msgstr ""
 
-#: templates/includes/de/navbar.html:38 templates/includes/en/navbar.html:38
-#: templates/includes/it/navbar.html:38 templates/includes/navbar.html:38
+#: templates/includes/de/navbar.html:28 templates/includes/en/navbar.html:38
+#: templates/includes/it/navbar.html:29 templates/includes/navbar.html:38
 msgid "English"
 msgstr ""
 
-#: templates/includes/de/navbar.html:39 templates/includes/en/navbar.html:39
-#: templates/includes/it/navbar.html:39 templates/includes/navbar.html:39
+#: templates/includes/de/navbar.html:29 templates/includes/en/navbar.html:39
+#: templates/includes/it/navbar.html:30 templates/includes/navbar.html:39
 msgid "German"
 msgstr ""
 
-#: templates/includes/de/navbar.html:40 templates/includes/en/navbar.html:40
-#: templates/includes/it/navbar.html:40 templates/includes/navbar.html:40
+#: templates/includes/de/navbar.html:30 templates/includes/en/navbar.html:40
+#: templates/includes/it/navbar.html:31 templates/includes/navbar.html:40
 msgid "Italian"
 msgstr ""
 
-#: templates/includes/de/hero.html:24 templates/includes/en/hero.html:24
-#: templates/includes/it/hero.html:24
+#: templates/includes/de/hero.html:4 templates/includes/en/hero.html:24
+#: templates/includes/it/hero.html:65
 msgid "Uncover Ireland's Ancient East"
 msgstr ""
 
-#: templates/includes/de/hero.html:37 templates/includes/en/hero.html:37
-#: templates/includes/it/hero.html:37
+#: templates/includes/de/hero.html:18 templates/includes/en/hero.html:37
+#: templates/includes/it/hero.html:78
 msgid "KeepDiscovering"
 msgstr ""
 
-#: templates/includes/de/hero.html:38 templates/includes/en/hero.html:38
-#: templates/includes/it/hero.html:38
-msgid "Ireland's Ancient East is ready for you"
-msgstr ""
-
-#: templates/includes/de/hero.html:39 templates/includes/en/hero.html:39
-#: templates/includes/it/hero.html:39
+#: templates/includes/de/hero.html:19 templates/includes/en/hero.html:39
 msgid ""
 "Set off on a journey through the Wicklow Mountains, visit stunning "
 "castles, enjoy incredible food and so much more."
 msgstr ""
 
-#: templates/includes/de/hero.html:46 templates/includes/de/hero.html:106
-#: templates/includes/en/hero.html:46 templates/includes/en/hero.html:106
-#: templates/includes/it/hero.html:46 templates/includes/it/hero.html:106
-msgid "History and Heritage"
+#: templates/includes/de/hero.html:27
+msgid "Tourist Spots"
 msgstr ""
 
-#: templates/includes/de/hero.html:47 templates/includes/en/hero.html:47
-#: templates/includes/it/hero.html:47
-msgid "10 fascinating facts about Ireland's Ancient East"
+#: templates/includes/de/hero.html:28
+msgid ""
+"Ireland is a treasure trove of tourist attractions, each offering a "
+"unique glimpse into the country's rich history and natural beauty. "
+"Dublin, the capital, is renowned for the historic Book of Kells at "
+"Trinity College and the lively Temple Bar district. Beyond the city, the "
+"Cliffs of Moher stand as a breathtaking natural wonder along the Atlantic"
+" coast, drawing visitors with their dramatic views. The Ring of Kerry "
+"provides a scenic drive through lush landscapes and quaint villages, "
+"while the ancient site of Newgrange offers a look back into Ireland’s "
+"prehistoric past. For castle enthusiasts, Blarney Castle is a must-visit,"
+" where one can kiss the famous Blarney Stone. Meanwhile, the wild beauty "
+"of Connemara and the rugged Aran Islands offer a taste of Ireland’s "
+"traditional Gaelic culture, preserved in time and surrounded by stunning "
+"scenery. Each of these spots showcases the diversity and charm of "
+"Ireland, making it a compelling destination for travelers seeking both "
+"history and natural beauty.<br><br>Click Here to Look at Spots"
 msgstr ""
 
-#: templates/includes/de/hero.html:51 templates/includes/de/hero.html:95
-#: templates/includes/en/hero.html:51 templates/includes/en/hero.html:95
-#: templates/includes/it/hero.html:51 templates/includes/it/hero.html:95
-msgid "Family Fun"
-msgstr ""
-
-#: templates/includes/de/hero.html:52 templates/includes/en/hero.html:52
-#: templates/includes/it/hero.html:52
-msgid "10 ideas for families exploring Ireland's Ancient East"
-msgstr ""
-
-#: templates/includes/de/hero.html:56 templates/includes/en/hero.html:56
-#: templates/includes/it/hero.html:56
-msgid "Houses and Gardens"
-msgstr ""
-
-#: templates/includes/de/hero.html:57 templates/includes/en/hero.html:57
-#: templates/includes/it/hero.html:57
-msgid "Discover the gardens of Ireland's Ancient East"
-msgstr ""
-
-#: templates/includes/de/hero.html:64 templates/includes/en/hero.html:64
-#: templates/includes/it/hero.html:64
-msgid "Start Exploring"
-msgstr ""
-
-#: templates/includes/de/hero.html:86 templates/includes/en/hero.html:86
-#: templates/includes/it/hero.html:86
-msgid "Start your adventure"
-msgstr ""
-
-#: templates/includes/de/hero.html:87 templates/includes/en/hero.html:87
-#: templates/includes/it/hero.html:87
-msgid "Explore Ireland's Ancient East and find your dream getaway."
-msgstr ""
-
-#: templates/includes/de/hero.html:96 templates/includes/en/hero.html:96
-#: templates/includes/it/hero.html:96
-msgid "Why you have to visit The Irish National Stud and Gardens"
-msgstr ""
-
-#: templates/includes/de/hero.html:98 templates/includes/de/hero.html:109
-#: templates/includes/de/hero.html:120 templates/includes/en/hero.html:98
+#: templates/includes/de/hero.html:29 templates/includes/de/hero.html:37
+#: templates/includes/de/hero.html:47 templates/includes/de/hero.html:64
+#: templates/includes/de/hero.html:103 templates/includes/de/hero.html:114
+#: templates/includes/de/hero.html:125 templates/includes/en/hero.html:98
 #: templates/includes/en/hero.html:109 templates/includes/en/hero.html:120
-#: templates/includes/it/hero.html:98 templates/includes/it/hero.html:109
-#: templates/includes/it/hero.html:120
+#: templates/includes/it/hero.html:185 templates/includes/it/hero.html:190
+#: templates/includes/it/hero.html:195 templates/includes/it/hero.html:200
+#: templates/includes/it/hero.html:221 templates/includes/it/hero.html:232
+#: templates/includes/it/hero.html:243
 msgid "Click Here"
 msgstr ""
 
-#: templates/includes/de/hero.html:107 templates/includes/en/hero.html:107
-#: templates/includes/it/hero.html:107
+#: templates/includes/de/hero.html:35
+msgid "Resturants"
+msgstr ""
+
+#: templates/includes/de/hero.html:36
+msgid ""
+"Irish cuisine is a delightful exploration of hearty flavors and "
+"traditional cooking techniques, deeply rooted in the country's "
+"agricultural heritage. Staples like potatoes, seafood, beef, and lamb "
+"form the backbone of many dishes, reflecting Ireland's rich farming and "
+"fishing traditions. Iconic Irish dishes include Irish stew, made with "
+"lamb or mutton, potatoes, and onions, which is both comforting and "
+"filling. Soda bread, another staple, is often served alongside meals. "
+"Seafood lovers will appreciate the fresh salmon, oysters, and mussels, "
+"particularly abundant in coastal areas. For a taste of local dairy "
+"excellence, Irish butter and cheeses are must-tries, celebrated for their"
+" quality and richness. Additionally, no culinary tour of Ireland is "
+"complete without experiencing a traditional full Irish breakfast, "
+"featuring sausage, bacon, eggs, and black pudding. Each meal is an "
+"opportunity to savor a piece of Ireland's cultural heritage, making its "
+"cuisine an integral part of the travel experience.<br><br>Click Here for "
+"the best Resturants!"
+msgstr ""
+
+#: templates/includes/de/hero.html:43
+msgid "Planning a Trip around Ireland"
+msgstr ""
+
+#: templates/includes/de/hero.html:44
+msgid ""
+"Planning a trip to Ireland is an exhilarating opportunity to explore its "
+"breathtaking landscapes, historic landmarks, and vibrant cultural scene. "
+"Before you go, make sure your travel documents, such as passports and "
+"visas, are in order. The best time to visit is from May to September, "
+"offering milder temperatures and longer daylight hours. For "
+"accommodations, you have a wide range of options, from quaint bed and "
+"breakfasts to luxurious hotels. Renting a car is advisable for maximum "
+"flexibility, especially if you plan to venture into the countryside, "
+"though public transportation is also reliable for city hopping. As you "
+"plan your itinerary, consider must-visit sites like Dublin for its "
+"literary heritage and lively pubs, the Cliffs of Moher for spectacular "
+"natural beauty, and the Ring of Kerry for a picturesque drive. Pack for "
+"unpredictable weather by including layers, a waterproof jacket, and "
+"comfortable shoes. To fully immerse yourself, engage with the local "
+"community, savor traditional Irish dishes, and if possible, schedule your"
+" visit during a festival to experience the full richness of Irish "
+"culture.<br><br>Click here for More Info"
+msgstr ""
+
+#: templates/includes/de/hero.html:50
+msgid "Links"
+msgstr ""
+
+#: templates/includes/de/hero.html:61
+msgid "Ireland's Safety and Security"
+msgstr ""
+
+#: templates/includes/de/hero.html:63
+msgid ""
+"Ireland is widely regarded as a safe travel destination with a relatively"
+" low crime rate, especially concerning violent crime. While petty theft "
+"and pickpocketing can occur in tourist-heavy areas and major cities like "
+"Dublin and Cork, overall, Ireland offers a secure environment for "
+"visitors. Public transportation is reliable and considered safe, though "
+"caution is advised at night and in less populated areas. It’s important "
+"to familiarize yourself with local laws and customs, such as the "
+"illegality of public drinking in many places and stringent drug laws. "
+"Emergency services are readily accessible by dialing 112, the free "
+"emergency number throughout the EU. Health care in Ireland is high "
+"quality; EU travelers should carry a European Health Insurance Card "
+"(EHIC), and those from outside the EU should have comprehensive travel "
+"health insurance. The Irish weather is famously unpredictable, so packing"
+" appropriate clothing and checking forecasts is essential, especially if "
+"outdoor activities are planned. Additionally, Ireland’s network of "
+"tourist offices provides valuable assistance and information, enhancing "
+"safety and convenience for travelers.<br><br>For More Information: Click "
+"the Button"
+msgstr ""
+
+#: templates/includes/de/hero.html:70 templates/includes/en/hero.html:64
+msgid "Start Exploring"
+msgstr ""
+
+#: templates/includes/de/hero.html:92 templates/includes/en/hero.html:86
+#: templates/includes/it/hero.html:209
+msgid "Start your adventure"
+msgstr ""
+
+#: templates/includes/de/hero.html:93 templates/includes/en/hero.html:87
+#: templates/includes/it/hero.html:210
+msgid "Explore Ireland's Ancient East and find your dream getaway."
+msgstr ""
+
+#: templates/includes/de/hero.html:100 templates/includes/en/hero.html:51
+#: templates/includes/en/hero.html:95 templates/includes/it/hero.html:152
+#: templates/includes/it/hero.html:218
+msgid "Family Fun"
+msgstr ""
+
+#: templates/includes/de/hero.html:101 templates/includes/en/hero.html:96
+#: templates/includes/it/hero.html:219
+msgid "Why you have to visit The Irish National Stud and Gardens"
+msgstr ""
+
+#: templates/includes/de/hero.html:111 templates/includes/en/hero.html:46
+#: templates/includes/en/hero.html:106 templates/includes/it/hero.html:147
+#: templates/includes/it/hero.html:229
+msgid "History and Heritage"
+msgstr ""
+
+#: templates/includes/de/hero.html:112 templates/includes/en/hero.html:107
+#: templates/includes/it/hero.html:230
 msgid "Why you'll want to visit Meath's Brú na Bóinne"
 msgstr ""
 
-#: templates/includes/de/hero.html:117 templates/includes/en/hero.html:117
-#: templates/includes/it/hero.html:117
+#: templates/includes/de/hero.html:122 templates/includes/en/hero.html:117
+#: templates/includes/it/hero.html:240
 msgid "The Great Outdoors"
 msgstr ""
 
-#: templates/includes/de/hero.html:118 templates/includes/en/hero.html:118
-#: templates/includes/it/hero.html:118
+#: templates/includes/de/hero.html:123 templates/includes/en/hero.html:118
+#: templates/includes/it/hero.html:241
 msgid "Explore Monaghan – Ireland's best kept secret"
+msgstr ""
+
+#: templates/includes/en/hero.html:38
+msgid "Ireland's Ancient East is ready for you"
+msgstr ""
+
+#: templates/includes/en/hero.html:47 templates/includes/it/hero.html:148
+msgid "10 fascinating facts about Ireland's Ancient East"
+msgstr ""
+
+#: templates/includes/en/hero.html:52 templates/includes/it/hero.html:153
+msgid "10 ideas for families exploring Ireland's Ancient East"
+msgstr ""
+
+#: templates/includes/en/hero.html:56 templates/includes/it/hero.html:157
+msgid "Houses and Gardens"
+msgstr ""
+
+#: templates/includes/en/hero.html:57 templates/includes/it/hero.html:158
+msgid "Discover the gardens of Ireland's Ancient East"
+msgstr ""
+
+#: templates/includes/it/hero.html:13
+msgid "Explore Culture"
+msgstr ""
+
+#: templates/includes/it/hero.html:14
+msgid "Experience the Culture of Ireland"
+msgstr ""
+
+#: templates/includes/it/hero.html:15
+msgid "Sign up today"
+msgstr ""
+
+#: templates/includes/it/hero.html:23
+msgid "Live Music"
+msgstr ""
+
+#: templates/includes/it/hero.html:24
+msgid "Immerse Irish Music to fulfill the Irish Tradition"
+msgstr ""
+
+#: templates/includes/it/hero.html:25
+msgid "Learn more"
+msgstr ""
+
+#: templates/includes/it/hero.html:32 templates/includes/it/hero.html:128
+msgid "Cultural Events"
+msgstr ""
+
+#: templates/includes/it/hero.html:33
+msgid "Hop in and Enjoy the events held in Ireland"
+msgstr ""
+
+#: templates/includes/it/hero.html:34
+msgid "Find More"
+msgstr ""
+
+#: templates/includes/it/hero.html:79
+msgid "Ireland's Ancient East is ready for You"
+msgstr ""
+
+#: templates/includes/it/hero.html:80
+msgid "Set off a journey to experience Irish Culture, Music and Irish Event"
+msgstr ""
+
+#: templates/includes/it/hero.html:88
+msgid "Culture"
+msgstr ""
+
+#: templates/includes/it/hero.html:91
+msgid ""
+"1. Literature<br>Ireland has made an outsized contribution to world "
+"literature. It has produced four Nobel laureates in literature: George "
+"Bernard Shaw, William Butler Yeats, Samuel Beckett, and Seamus Heaney. "
+"The country's literary tradition is also marked by figures such as James "
+"Joyce, whose novel \"Ulysses\" is considered one of the most important "
+"works of modernist literature."
+msgstr ""
+
+#: templates/includes/it/hero.html:94
+msgid ""
+"2. Music<br>Irish music is a vital part of the country's culture. "
+"Traditional Irish music, with its own distinctive instruments like the "
+"bodhrán (a type of drum), uilleann pipes (a complex form of bagpipe), and"
+" the fiddle, remains hugely popular and has influenced many kinds of "
+"other music genres. Modern musicians like U2, Sinéad O'Connor, and Enya "
+"have also gained international fame."
+msgstr ""
+
+#: templates/includes/it/hero.html:97
+msgid ""
+"3. Dance<br>While English is the predominant language, Irish (Gaelic) is "
+"the first official language of the Republic of Ireland and is taught in "
+"schools across the country. There are several areas, known as Gaeltacht "
+"regions, where Irish is the primary spoken language."
+msgstr ""
+
+#: templates/includes/it/hero.html:108
+msgid "Music"
+msgstr ""
+
+#: templates/includes/it/hero.html:111
+msgid ""
+"1. Pub Culture<br>Live music is a significant part of Irish pub culture, "
+"with many pubs across the country offering live music nights. This not "
+"only includes traditional Irish music but also rock, blues, jazz, and "
+"contemporary pop. Pubs provide a platform for new artists to hone their "
+"craft and gain exposure."
+msgstr ""
+
+#: templates/includes/it/hero.html:114
+msgid ""
+"2. Street Performance<br>Busking is a common sight on the streets of "
+"Ireland's cities, with performers often playing both traditional Irish "
+"music and modern genres. Grafton Street in Dublin is particularly famous "
+"for street music and has been the starting point for several well-known "
+"Irish musicians, including Glen Hansard and Damien Rice."
+msgstr ""
+
+#: templates/includes/it/hero.html:117
+msgid ""
+"3. Traditional Music Sessions<br>Traditional Irish music sessions are a "
+"staple of the live music scene in Ireland. These sessions usually take "
+"place in pubs and are informal gatherings where musicians play folk tunes"
+" together. These sessions can feature a variety of instruments such as "
+"fiddles, tin whistles, flutes, uilleann pipes, and bodhráns. Towns like "
+"Doolin in County Clare and Galway City are particularly famous for their "
+"vibrant music scenes."
+msgstr ""
+
+#: templates/includes/it/hero.html:130
+msgid ""
+"1. St.Patrick's Day<br>St. Patrick's Day, on March 17th, is perhaps the "
+"most iconic of all Irish cultural events. It commemorates St. Patrick, "
+"Ireland's patron saint, and celebrates Irish culture with parades, music,"
+" dancing, and the wearing of green attire. While it's celebrated "
+"globally, in Ireland, the festivities are particularly vibrant, with the "
+"largest parade in Dublin attracting hundreds of thousands of visitors."
+msgstr ""
+
+#: templates/includes/it/hero.html:133
+msgid ""
+"2. Cork Jazz Festival<br>Held annually in October, the Cork Jazz Festival"
+" is one of the most significant jazz events in Europe. Since 1978, it has"
+" brought world-renowned jazz musicians to Ireland and provided a stage "
+"for emerging talents. The festival features a mix of live performances, "
+"workshops, and impromptu jam sessions across various venues in Cork city."
+msgstr ""
+
+#: templates/includes/it/hero.html:136
+msgid ""
+"3. Dublin Theatre Festival<br>Founded in 1957, the Dublin Theatre "
+"Festival is held in September and October and is Europe’s oldest "
+"specialized theatre festival. It presents an engaging lineup of "
+"international theatre as well as new and experimental Irish plays, making"
+" it a significant event in the international arts calendar."
+msgstr ""
+
+#: templates/includes/it/hero.html:167
+msgid "Start Exploring Irish Music and Culture"
+msgstr ""
+
+#: templates/includes/it/hero.html:169
+msgid ""
+"Irish culture is a vibrant tapestry woven with the threads of history, "
+"art, and community spirit, celebrated worldwide for its rich traditions "
+"and festive gatherings. At the heart of Irish cultural expression is its "
+"music, characterized by instruments like the fiddle, tin whistle, and "
+"bodhrán. Traditional Irish music, often performed during lively sessions "
+"in pubs and at community events, offers a direct link to Ireland's "
+"history and a form of storytelling that captures the struggles, joys, and"
+" the resilient spirit of the people.\n"
+"          <br>\n"
+"          Cultural events play a crucial role in sustaining these "
+"traditions, with festivals such as St. Patrick's Day parades and the "
+"Fleadh Cheoil drawing visitors from around the globe. These gatherings "
+"are not just celebrations but also serve as platforms for intercultural "
+"exchange and education about the deep historical roots of Irish customs. "
+"Through music and dance, storytelling sessions, and Gaelic language "
+"workshops, these events provide immersive experiences that connect "
+"individuals to the enduring heart of Irish culture.\n"
+"          <br>\n"
+"          For anyone looking to delve into Irish culture, participating "
+"in or attending these cultural festivals can be an enriching experience, "
+"offering a deeper understanding of the Irish way of life and its "
+"universal appeal."
+msgstr ""
+
+#: templates/includes/it/hero.html:184
+msgid "Famous Bars"
+msgstr ""
+
+#: templates/includes/it/hero.html:199
+msgid "Wishing to Stay"
 msgstr ""
 
