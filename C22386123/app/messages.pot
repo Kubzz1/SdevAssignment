@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-23 21:05+0100\n"
+"POT-Creation-Date: 2024-04-23 21:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgid "Contact Us"
 msgstr ""
 
 #: templates/contact.html:11
-msgid "Name:"
+msgid "Name"
 msgstr ""
 
 #: templates/contact.html:14
-msgid "Email:"
+msgid "Email"
 msgstr ""
 
 #: templates/contact.html:17
@@ -445,7 +445,7 @@ msgid "Click Here"
 msgstr ""
 
 #: templates/includes/de/hero.html:35
-msgid "Resturants"
+msgid "Restaurants"
 msgstr ""
 
 #: templates/includes/de/hero.html:36
@@ -758,6 +758,10 @@ msgstr ""
 
 #: templates/includes/it/hero.html:184
 msgid "Famous Bars"
+msgstr ""
+
+#: templates/includes/it/hero.html:189
+msgid "Irish Concerts"
 msgstr ""
 
 #: templates/includes/it/hero.html:199

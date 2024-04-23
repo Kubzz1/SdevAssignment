@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-23 21:05+0100\n"
-"PO-Revision-Date: 2024-04-22 15:38+0100\n"
+"POT-Creation-Date: 2024-04-23 21:29+0100\n"
+"PO-Revision-Date: 2024-04-23 21:29+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
 "Language-Team: it <LL@li.org>\n"
@@ -22,19 +22,19 @@ msgstr ""
 #: templates/includes/en/navbar.html:22 templates/includes/it/navbar.html:15
 #: templates/includes/navbar.html:22
 msgid "Home"
-msgstr "Casa"
+msgstr "Home"
 
 #: templates/base.html:94
 msgid "Features"
-msgstr ""
+msgstr "Caratteristiche"
 
 #: templates/base.html:95
 msgid "Pricing"
-msgstr ""
+msgstr "Prezzi"
 
 #: templates/base.html:96
 msgid "FAQs"
-msgstr ""
+msgstr "FAQ"
 
 #: templates/base.html:97 templates/includes/de/navbar.html:23
 #: templates/includes/en/navbar.html:31 templates/includes/it/navbar.html:24
@@ -43,25 +43,24 @@ msgid "Contact"
 msgstr "Contatto"
 
 #: templates/contact.html:9
-#, fuzzy
 msgid "Contact Us"
-msgstr "Contatto"
+msgstr "Contattaci"
 
 #: templates/contact.html:11
-msgid "Name:"
-msgstr ""
+msgid "Name"
+msgstr "Nome"
 
 #: templates/contact.html:14
-msgid "Email:"
-msgstr ""
+msgid "Email"
+msgstr "Email"
 
 #: templates/contact.html:17
 msgid "Message"
-msgstr ""
+msgstr "Messaggio"
 
 #: templates/contact.html:20
 msgid "Send Message"
-msgstr ""
+msgstr "Invia Messaggio"
 
 #: templates/includes/de/hero.html:20 templates/includes/de/navbar.html:17
 #: templates/includes/en/navbar.html:25 templates/includes/it/navbar.html:18
@@ -98,36 +97,25 @@ msgid ""
 "        Welcome to Ireland's Ancient East, where history awaits at every "
 "turn. <h4>Scroll Down for More</h4>"
 msgstr ""
-"Intraprendi un viaggio senza tempo attraverso l'Ancient East "
-"dell'Irlanda, una terra preziosa intessuta di leggende leggendarie, orme "
-"storiche e paesaggi che custodiscono i sussurri dei secoli.\n"
-"        Dalle lussureggianti valli delle Montagne di Wicklow alle pietre "
-"storiche del Castello di Kilkenny, ogni curva della strada conduce a "
-"nuove avventure impregnate dei miti e delle saghe che sono il cuore "
-"dell'eredità irlandese.\n"
-"        <br>\n"
-"        Il tuo itinerario si dispiega come una mappa consumata dal tempo,"
-" guidandoti verso siti mistici come il Brú na Bóinne, dove antiche tombe "
-"precedono le piramidi d'Egitto, e verso città vivaci dove il passato è "
-"tangibile come le pietre sotto i piedi.\n"
-"        Che tu stia esplorando la serena bellezza di Glendalough o le "
-"sacre sale di antichi monasteri, l'Ancient East dell'Irlanda promette un "
-"intreccio di esperienze che fondono la bellezza naturale con l'impronta "
-"indelebile della storia.\n"
-"        <br>\n"
-"        Qui, dove ogni sentiero ha una storia, il tuo viaggio sarà più "
-"che un passaggio attraverso luoghi di interesse; sarà un tuffo immersivo "
-"in un mondo dove le leggende vivono e respirano.\n"
-"        Benvenuti nell'Ancient East dell'Irlanda, dove la storia attende "
-"ad ogni angolo. <h4>Scorri verso il basso per ulteriori informazioni</h4>"
+"Intraprendi un viaggio senza tempo attraverso l'Antica Irlanda Orientale, una terra preziosa intessuta di racconti leggendari, passi storici e paesaggi che custodiscono i sussurri dei secoli.\n"
+"Dalle vallate lussureggianti delle Montagne di Wicklow alle storiche pietre del Castello di Kilkenny, ogni curva della strada porta a nuove avventure immerse nei miti e nelle saghe che sono il cuore dell'eredità dell'Irlanda.\n"
+"<br>\n"
+"Il tuo itinerario si dispiega come una mappa consunta dal tempo, guidandoti verso siti mistici come il Brú na Bóinne, dove antiche tombe precedono le piramidi d'Egitto, e verso città vivaci dove il passato è tangibile come le pietre sotto i piedi.\n"
+"Che tu stia esplorando la serena bellezza di Glendalough o gli sacri corridoi di monasteri storici, l'Antica Irlanda Orientale promette un intreccio di esperienze che intrecciano la bellezza naturale con il segno indelebile della storia.\n"
+"<br>\n"
+"Qui, dove ogni sentiero ha una storia, il tuo viaggio sarà più di un passaggio attraverso i luoghi d'interesse; sarà un'immersione coinvolgente in un mondo dove le leggende vivono e respirano.\n"
+"Benvenuto nell'Antica Irlanda Orientale, dove la storia ti aspetta ad ogni angolo. <h4>Scorri in basso per ulteriori dettagli</h4>"
+
 
 #: templates/itinerary.html:42
 msgid "Map of Ireland"
 msgstr "Mappa dell'Irlanda"
 
+
 #: templates/itinerary.html:49
 msgid "Places and Events"
 msgstr "Luoghi ed Eventi"
+
 
 #: templates/itinerary.html:51
 msgid ""
@@ -135,11 +123,8 @@ msgid ""
 "significance, offering a range of attractions that showcase Ireland's "
 "heritage, from ancient times to modern day. Some of the must-visit places"
 " include:"
-msgstr ""
-"L'Ancient East dell'Irlanda è una regione di profonda importanza storica "
-"e culturale, che offre una gamma di attrazioni che mostrano l'eredità "
-"dell'Irlanda, dai tempi antichi ai giorni nostri. Alcuni dei luoghi da "
-"visitare includono:"
+msgstr "L'Est Antico dell'Irlanda è una regione di profonda importanza storica e culturale, che offre una gamma di attrazioni che mostrano l'eredità dell'Irlanda, dai tempi antichi ai giorni nostri. Alcuni dei luoghi da visitare includono:"
+
 
 #: templates/itinerary.html:64
 msgid ""
@@ -173,39 +158,15 @@ msgid ""
 "out to Brehon Brewhouse at +353 86 823 0914 or visit their official "
 "website (<a href=\"https://brehonbrewhouse.ie/\">Here</a>)"
 msgstr ""
-"Brehon Brewhouse offre un'esperienza coinvolgente per coloro che sono "
-"interessati alla birra artigianale e alla storia irlandese. Situato nella"
-" Contea di Monaghan, il birrificio si trova tra i paesaggi collinari "
-"vicino a Inniskeen, a pochi chilometri dal luogo di nascita del famoso "
-"poeta irlandese Patrick Kavanagh. Il birrificio stesso è un'impresa "
-"dell'allevatore di bovini da latte Seamus McMahon, che ha iniziato la "
-"birreria nella sua fattoria di famiglia, mescolando la tradizione della "
-"birrificazione con la storia della sua famiglia nell'allevamento di "
-"bovini da latte.\n"
+msgstr ""
+"Il Brehon Brewhouse offre un'esperienza coinvolgente per coloro interessati alla birra artigianale e alla storia irlandese. Situato nella Contea di Monaghan, il birrificio si trova tra i paesaggi collinari nei pressi di Inniskeen, a pochi chilometri dal luogo di nascita del famoso poeta irlandese Patrick Kavanagh. Il birrificio stesso è una scommessa del contadino di bestiame Seamus McMahon, che ha iniziato la birreria nella sua fattoria di famiglia, fondendo la tradizione della birrificazione con la storia della sua famiglia nell'allevamento di bestiame da latte.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-car\"></i> Per arrivarci, è meglio "
-"avere un proprio mezzo di trasporto poiché il birrificio si trova fuori "
-"dai percorsi più battuti, in campagna. Le visite sono solitamente "
-"disponibili il sabato, e per gruppi più grandi, possono essere "
-"organizzati altri giorni. Data la sua posizione, l'approccio potrebbe "
-"coinvolgere piccole strade di campagna tipiche dell'Irlanda rurale. È "
-"possibile contattare direttamente il birrificio per informarsi sulle "
-"migliori rotte e qualsiasi consiglio di trasporto che potrebbero avere "
-"per la tua visita.\n"
+"            <i class=\"fa-solid fa-car\"></i> Per arrivarci, è meglio avere il proprio mezzo di trasporto poiché il birrificio si trova fuori dalle rotte battute, in campagna. Le visite sono di solito disponibili il sabato e, per gruppi più grandi, possono essere organizzate per altri giorni. Data la sua posizione, l'approccio probabilmente coinvolge strade di campagna più piccole tipiche dell'Irlanda rurale. È possibile contattare direttamente il birrificio per informarsi sui migliori percorsi e consigli di trasporto per la visita.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> Brehon Brewhouse "
-"prende sul serio la sicurezza e la protezione, garantendo un ambiente "
-"sicuro per tutti i visitatori. Il birrificio è dotato di telecamere di "
-"sorveglianza e personale addestrato che monitora i locali. Ai visitatori "
-"è consigliato di prestare attenzione all'ambiente circostante e ai propri"
-" effetti personali. I protocolli di sicurezza, inclusa la segnaletica "
-"chiara per le uscite di emergenza e l'accesso ai primi soccorsi, sono "
-"rigorosamente applicati per offrire un'esperienza sicura e piacevole a "
-"tutti coloro che visitano o degustano a Brehon Brewhouse.\n"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> Il Brehon Brewhouse prende seriamente la sicurezza, garantendo un ambiente sicuro per tutti i visitatori. Il birrificio è dotato di telecamere di sorveglianza e il personale è formato per monitorare il sito. Ai visitatori viene consigliato di essere attenti all'ambiente circostante e ai propri effetti personali. Protocolli di sicurezza, tra cui segnaletica chiara per le uscite di emergenza e accesso ai pronto soccorso, vengono rigorosamente applicati per fornire un'esperienza sicura e piacevole a tutti coloro che visitano o degustano al Brehon Brewhouse.\n"
 "            <br><br>\n"
-"            Per maggiori informazioni e per pianificare la tua visita, "
-"puoi contattare Brehon Brewhouse al +353 86 823 0914 o visitare il loro "
-"sito ufficiale (<a href=\"https://brehonbrewhouse.ie/\">Qui</a>)"
+"            Per maggiori informazioni e per pianificare la tua visita, puoi contattare il Brehon Brewhouse al +353 86 823 0914 o visitare il loro sito web ufficiale (<a href=\"https://brehonbrewhouse.ie/\">Qui</a>)"
+
 
 #: templates/itinerary.html:80
 msgid ""
@@ -238,38 +199,15 @@ msgid ""
 "/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw\">Here</a> for"
 " more information"
 msgstr ""
-"Il Sentiero Costiero dell'Estuario di Waterford si estende da Dunmore "
-"East a Ballymacaw Cove ed è un percorso lineare che promette viste "
-"mozzafiato e la possibilità di esplorare la bellezza naturale della costa"
-" di Waterford. Il percorso è moderatamente impegnativo e include gradini,"
-" stili, ponticelli e attraversamenti di corsi d'acqua. È lungo circa 7 "
-"chilometri e offre un'esperienza immersiva con viste su scogliere "
-"frastagliate e la possibilità di osservare la fauna locale, come uccelli "
-"e possibilmente foche.\n"
+msgstr ""
+"Il Percorso Costiero dell'Estuario di Waterford si estende da Dunmore East a Ballymacaw Cove ed è un cammino lineare che promette viste mozzafiato e l'opportunità di esplorare la bellezza naturale della costa di Waterford. Il percorso è moderatamente impegnativo e include scalini, staccionate, ponti pedonali e attraversamenti di ruscelli. Ha una lunghezza di circa 7 chilometri e offre un'esperienza coinvolgente con vedute di scogliere rocciose e la possibilità di osservare la fauna locale come uccelli e, eventualmente, foche.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-car\"></i> Per raggiungere il Sentiero"
-" Costiero dell'Estuario di Waterford, che inizia al parcheggio del porto "
-"di Dunmore East, è possibile arrivarci direttamente in auto e "
-"parcheggiare nel parcheggio designato. Se utilizzi i trasporti pubblici, "
-"ci sono autobus che servono la città di Waterford, da cui puoi prendere "
-"un autobus locale o un taxi per Dunmore East. Si consiglia di verificare "
-"gli ultimi orari e percorsi con i servizi di trasporto locali prima di "
-"viaggiare.\n"
+"            <i class=\"fa-solid fa-car\"></i> Per raggiungere il Percorso Costiero dell'Estuario di Waterford, che ha inizio al Parcheggio del Porto di Dunmore East, puoi guidare direttamente fino lì e parcheggiare nel parcheggio appositamente designato. Se usi i trasporti pubblici, ci sono autobus che servono la città di Waterford, da dove puoi prendere un autobus locale o un taxi per Dunmore East. Si consiglia di verificare gli orari e le rotte più recenti con i servizi di trasporto locali prima di viaggiare.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> Il Sentiero "
-"Costiero dell'Estuario di Waterford da Dunmore East a Ballymacaw è ben "
-"mantenuto per la sicurezza, con segnaletica chiara e ispezioni regolari "
-"del percorso. Agli escursionisti si consiglia di rimanere sui sentieri "
-"segnati, prestare attenzione agli avvisi meteorologici e esercitare "
-"cautela vicino ai bordi delle scogliere. Anche se il sentiero non dispone"
-" di CCTV, la copertura del telefono cellulare è generalmente disponibile "
-"per le emergenze. Seguendo queste linee guida, i visitatori possono "
-"godere in sicurezza delle splendide vedute costiere che questo sentiero "
-"offre.\n"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> Il Percorso Costiero dell'Estuario di Waterford da Dunmore East a Ballymacaw è ben mantenuto per quanto riguarda la sicurezza, con segnaletica chiara e regolari ispezioni del percorso. Ai camminatori viene consigliato di rimanere sui sentieri segnalati, prestare attenzione agli avvisi meteorologici e fare attenzione vicino ai bordi delle scogliere. Anche se il percorso non dispone di telecamere di sorveglianza, la copertura telefonica mobile è generalmente disponibile per le emergenze. Seguendo queste linee guida, i visitatori possono godere in sicurezza delle splendide viste costiere offerte da questo percorso.\n"
 "            <br><br>\n"
-"            Clicca <a href=\"https://www.discoverireland.ie/waterford"
-"/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw\">Qui</a> per "
-"maggiori informazioni"
+"            Clicca <a href=\"https://www.discoverireland.ie/waterford/waterford-estuary-coastal-path-dunmore-east-to-ballymacaw\">Qui</a> per maggiori informazioni"
+
 
 #: templates/itinerary.html:96
 msgid ""
@@ -305,41 +243,15 @@ msgid ""
 "contact them directly via phone or email for any specific inquiries or to"
 " arrange group visits. <a href=\"https://powerscourt.com/\">Here</a>"
 msgstr ""
-"Powerscourt House & Gardens è un rinomato storico tenimento situato nella"
-" Contea di Wicklow, Irlanda, noto per i suoi squisiti giardini del XVIII "
-"secolo e l'architettura palladiana. Il tenimento copre circa 47 acri e "
-"include giardini magnificamente paesaggistici, ampie terrazze, laghi "
-"ornamentali e oltre 200 varietà di alberi e arbusti.\n"
+msgstr ""
+"Il Powerscourt House & Gardens è un noto storico dominio situato nella Contea di Wicklow, Irlanda, noto per i suoi deliziosi giardini del XVIII secolo e l'architettura palladiana. Il dominio copre circa 47 acri e comprende giardini splendidamente paesaggistici, terrazze panoramiche, laghi ornamentali e oltre 200 varietà di alberi e arbusti.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-car\"></i> Powerscourt si trova a "
-"Enniskerry, nella Contea di Wicklow, a circa 20 chilometri a sud di "
-"Dublino. È raggiungibile in auto tramite l'autostrada M11 che porta alla "
-"N11 verso Wicklow, prendendo poi l'uscita per Enniskerry e seguendo le "
-"indicazioni per il Powerscourt Estate. Le opzioni di trasporto pubblico "
-"includono autobus dal centro di Dublino che possono lasciare i visitatori"
-" nelle vicinanze, e da lì si può prendere un breve tragitto in taxi per "
-"il tenimento.\n"
+"            <i class=\"fa-solid fa-car\"></i> Powerscourt si trova a Enniskerry, nella Contea di Wicklow, a circa 20 chilometri a sud di Dublino. Può essere raggiunto in auto tramite l'autostrada M11 che porta alla N11 in direzione di Wicklow, quindi prendendo l'uscita per Enniskerry e seguendo le indicazioni per la Tenuta di Powerscourt. Le opzioni di trasporto pubblico includono autobus dal centro di Dublino che possono lasciare i visitatori nelle vicinanze, e quindi si può prendere un breve tragitto in taxi fino alla tenuta.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> \n"
-"            Powerscourt House & Gardens pone un forte accento sulla "
-"sicurezza e la sicurezza dei suoi visitatori. Il tenimento è monitorato "
-"da personale di sicurezza addestrato ed è equipaggiato con sistemi CCTV "
-"per garantire un ambiente sicuro in tutto il suo vasto terreno e nelle "
-"strutture. Ai visitatori è consigliato di tenere i propri oggetti "
-"personali vicini e di essere consapevoli del loro ambiente, in "
-"particolare nelle aree più affollate. Misure di sicurezza complete, "
-"incluse uscite di emergenza chiaramente segnalate e primo soccorso "
-"disponibile, sono implementate in tutto il luogo per affrontare "
-"prontamente qualsiasi incidente. Con queste precauzioni in atto, gli "
-"ospiti possono comodamente godere della straordinaria bellezza e "
-"ricchezza storica di Powerscourt House & Gardens.\n"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> Powerscourt House & Gardens pone una grande enfasi sulla sicurezza e la sicurezza dei suoi visitatori. La tenuta è monitorata da personale di sicurezza addestrato e dotata di sistemi CCTV per garantire un ambiente sicuro in tutto il vasto terreno e le strutture. Ai visitatori viene consigliato di tenere strette le proprie cose e essere consapevoli dell'ambiente circostante, specialmente nelle aree più affollate. Misure di sicurezza complete, comprese uscite di emergenza chiaramente segnalate e pronto soccorso disponibile, sono implementate in tutto il luogo per affrontare prontamente eventuali incidenti. Con queste precauzioni in atto, gli ospiti possono comodamente godere della splendida bellezza e ricchezza storica di Powerscourt House & Gardens.\n"
 "            <br><br>\n"
-"            Per maggiori informazioni su Powerscourt House & Gardens, "
-"inclusi dettagli sui prezzi dei biglietti, orari di apertura, eventi "
-"speciali e altro, puoi visitare il loro sito ufficiale. Inoltre, puoi "
-"contattarli direttamente tramite telefono o email per qualsiasi richiesta"
-" specifica o per organizzare visite di gruppo. <a "
-"href=\"https://powerscourt.com/\">Qui</a>"
+"            Per ulteriori informazioni su Powerscourt House & Gardens, inclusi dettagli sui prezzi dei biglietti, gli orari di apertura, gli eventi speciali e altro ancora, puoi visitare il loro sito web ufficiale. Inoltre, puoi contattarli direttamente via telefono o email per eventuali domande specifiche o per organizzare visite di gruppo. <a href=\"https://powerscourt.com/\">Qui</a>"
+
 
 #: templates/itinerary.html:113
 msgid ""
@@ -377,42 +289,15 @@ msgid ""
 "venue's page could provide additional insights and help in planning your "
 "visit. (<a href=\"https://www.hystericalhistories.ie/\">Here</a>)"
 msgstr ""
-"Hysterical Histories Cork - Esperienza di Teatro Cena offre un modo unico"
-" e coinvolgente per esplorare la ricca storia di Cork attraverso una "
-"combinazione di cena e intrattenimento. Questo teatro cena comico è "
-"situato nel Ristorante Amicus, nel quartiere storico degli Ugonotti a "
-"Cork, dove sarai trattato con una performance vivace e divertente da "
-"attori professionisti. Lo spettacolo esplora 1500 anni di storia di Cork,"
-" con personaggi eccentrici, umorismo locale e narrazione interattiva, il "
-"tutto accompagnato da musica dal vivo.\n"
+msgstr ""
+"L'esperienza teatrale e cena Hysterical Histories Cork offre un modo unico e coinvolgente per esplorare la ricca storia di Cork attraverso un mix di cena e intrattenimento. Questo teatro comico è ambientato nell'Amicus Restaurant, situato nel quartiere storico degli Ugonotti di Cork, dove potrai goderti uno spettacolo vivace e divertente interpretato da attori professionisti. Lo spettacolo esplora 1500 anni di storia di Cork, con personaggi stravaganti, umorismo locale e narrazione interattiva, il tutto accompagnato da musica dal vivo.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-car\"></i> Il locale è situato "
-"centralmente presso An Spailpin Fanach sulla South Main Street, "
-"rendendolo facilmente accessibile. Per chi arriva in auto, ci sono "
-"parcheggi nelle vicinanze presso Q-park Grande Parade o uscite su South "
-"Main Street. Le fermate degli autobus e dei taxi più vicine sono anche a "
-"Grande Parade, il che è conveniente per chi utilizza i trasporti "
-"pubblici.\n"
+"            <i class=\"fa-solid fa-car\"></i> Il locale è centralmente situato presso An Spailpin Fanach in South Main Street, rendendolo facilmente accessibile. Per coloro che guidano, sono disponibili parcheggi nelle vicinanze presso Q-park Grande Parade o uscite di South Main Street. Le fermate degli autobus e dei taxi più vicine sono anche presso Grande Parade, il che è conveniente per coloro che utilizzano i mezzi pubblici.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> L'esperienza di "
-"cena teatrale \"Hysterical Histories Cork\" dà priorità alla sicurezza e "
-"alla sicurezza dei suoi ospiti. Il locale è dotato di personale di "
-"sicurezza addestrato, che è a disposizione per garantire che la serata "
-"proceda senza intoppi e in sicurezza. I sistemi di sorveglianza sono "
-"tipicamente operativi in tutto lo spazio per mantenere un ambiente "
-"sicuro. Ai visitatori è consigliato di badare ai propri effetti personali"
-" e di rimanere vigili, anche se l'atmosfera è generalmente rilassata e "
-"sicura. Le misure di sicurezza standard, compresa la segnaletica chiara "
-"per le uscite di emergenza e la disponibilità di primo soccorso, sono "
-"rigorosamente mantenute per affrontare tempestivamente eventuali "
-"emergenze. Questo garantisce che gli ospiti possano godere delle delizie "
-"teatrali e culinarie senza preoccupazioni.\n"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> L'esperienza teatrale e cena "Hysterical Histories Cork" dà priorità alla sicurezza e alla protezione dei suoi ospiti. Il locale è dotato di personale di sicurezza addestrato che è presente per garantire che la serata proceda in modo fluido e sicuro. È probabile che i sistemi di videosorveglianza siano in funzione in tutto lo spazio per mantenere un ambiente sicuro. Ai visitatori viene incoraggiato a prendersi cura dei propri effetti personali e rimanere vigili, anche se l'atmosfera è generalmente rilassata e sicura. Le misure di sicurezza standard, comprese le uscite di emergenza chiaramente indicate e la disponibilità di pronto soccorso, sono rigorosamente mantenute per affrontare tempestivamente eventuali emergenze. Ciò garantisce che gli ospiti possano godersi gli spettacoli teatrali e culinari senza preoccupazioni.\n"
 "            <br><br>\n"
-"            Per informazioni più dettagliate, inclusi prenotazioni e "
-"orari specifici degli spettacoli, la visita del sito ufficiale di "
-"Hysterical Histories o della pagina del locale potrebbe fornire ulteriori"
-" approfondimenti e aiutare nella pianificazione della tua visita. (<a "
-"href=\"https://www.hystericalhistories.ie/\">Qui</a>)"
+"            Per informazioni più dettagliate, inclusa la prenotazione e gli orari specifici dello spettacolo, visitare il sito web ufficiale di Hysterical Histories o la pagina del locale potrebbe fornire ulteriori informazioni e aiutare nella pianificazione della visita. (<a href=\"https://www.hystericalhistories.ie/\">Qui</a>)"
+
 
 #: templates/itinerary.html:129
 msgid ""
@@ -445,36 +330,14 @@ msgid ""
 "            Click <a href=\"https://www.antain.ie/event/exhibition-"
 "dundalk-photographic-society-2024/\">Here</a> for More Information"
 msgstr ""
-"La Mostra: Dundalk Photographic Society 2024 si terrà dal 23 aprile al 4 "
-"maggio 2024 presso l'An Táin Arts Centre a Dundalk, County Louth. "
-"Celebrando il suo 45° anno dalla fondazione, la mostra metterà in "
-"evidenza le opere recenti dei suoi membri, evidenziando sia i successi "
-"nazionali che internazionali del club. L'inaugurazione della mostra è "
-"prevista per il 20 aprile 2024, alle 19:00.\n"
-"            <br><br>           \n"
-"            <i class=\"fa-solid fa-car\"></i> Per il trasporto all'An "
-"Táin Arts Centre di Dundalk, i visitatori possono utilizzare gli autobus "
-"pubblici che servono l'area, poiché è situato centralmente nella città. "
-"Per chi viene in auto, ci sono parcheggi nelle vicinanze, rendendo "
-"conveniente l'accesso al locale. Inoltre, la stazione ferroviaria di "
-"Dundalk non è lontana dal centro, offrendo una buona connettività per chi"
-" proviene da altre parti dell'Irlanda.\n"
+"L'Esposizione: Dundalk Photographic Society 2024 si terrà dal 23 aprile al 4 maggio 2024 presso il Centro Artistico An Táin a Dundalk, nella Contea di Louth. In occasione del suo 45º anno dalla fondazione, l'esposizione presenta le opere recenti dei suoi membri, evidenziando i successi sia nazionali che internazionali del club. Il lancio dell'apertura dell'esposizione è previsto per il 20 aprile 2024, alle 19:00.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> La sicurezza e la"
-" sicurezza alla Mostra della Dundalk Photographic Society 2024 sono ben "
-"gestite per garantire un ambiente sicuro per tutti i partecipanti. Il "
-"luogo impiega tipicamente personale di sicurezza addestrato per "
-"monitorare l'evento e gestire eventuali problemi che possano sorgere. Le "
-"telecamere di sorveglianza sono probabilmente in uso per migliorare "
-"ulteriormente la sicurezza. Ai visitatori è consigliato di tenere al "
-"sicuro i propri effetti personali e di essere consapevoli del proprio "
-"ambiente. I protocolli di sicurezza standard, inclusi uscite di emergenza"
-" e strutture di primo soccorso, sono in atto per gestire eventuali "
-"emergenze. In generale, la mostra offre un contesto sicuro per godere "
-"delle esposizioni fotografiche.\n"
+"            <i class=\"fa-solid fa-car\"></i> Per il trasporto presso il Centro Artistico An Táin a Dundalk, i visitatori possono utilizzare gli autobus pubblici che servono l'area, poiché è situato centralmente all'interno della città. Per coloro che guidano, ci sono parcheggi nelle vicinanze, rendendo comodo l'accesso al luogo. Inoltre, la stazione ferroviaria di Dundalk non è lontana dal centro, offrendo una buona connettività per coloro che provengono da altre parti dell'Irlanda.\n"
 "            <br><br>\n"
-"            Clicca <a href=\"https://www.antain.ie/event/exhibition-"
-"dundalk-photographic-society-2024/\">Qui</a> per ulteriori informazioni"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> La sicurezza e la protezione alla Dundalk Photographic Society Exhibition 2024 sono gestite in modo appropriato per garantire un ambiente sicuro per tutti i partecipanti. Di solito, il luogo impiega personale di sicurezza addestrato per monitorare l'evento e gestire eventuali problemi che potrebbero sorgere. È probabile che siano in uso telecamere di sorveglianza per aumentare ulteriormente la sicurezza. Ai visitatori viene incoraggiato a mantenere al sicuro i propri effetti personali e a rimanere consapevoli dell'ambiente circostante. I protocolli di sicurezza standard, inclusi le uscite di emergenza e le strutture di primo soccorso, sono in atto per gestire eventuali emergenze. Nel complesso, l'esposizione offre un ambiente sicuro per godere delle mostre fotografiche.\n"
+"            <br><br>\n"
+"            Clicca <a href=\"https://www.antain.ie/event/exhibition-dundalk-photographic-society-2024/\">Qui</a> per Maggiori Informazioni"
+
 
 #: templates/itinerary.html:145
 msgid ""
@@ -507,34 +370,14 @@ msgid ""
 "href=\"https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB\">Here</a>"
 " for More Information"
 msgstr ""
-"Temple Bar è un vivace distretto culturale e della vita notturna a "
-"Dublino, Irlanda, rinomato per la sua atmosfera vibrante, le storiche "
-"strade acciottolate e una varietà di pub, gallerie, ristoranti e "
-"boutique. Nota come il quartiere culturale di Dublino, è un luogo "
-"popolare sia per i turisti che per i locali, offrendo un mix di musica "
-"tradizionale irlandese e intrattenimento moderno.\n"
+"Temple Bar è un vivace quartiere culturale e della vita notturna a Dublino, in Irlanda, rinomato per la sua atmosfera vibrante, le strade storiche lastricate e la vasta gamma di pub, gallerie, ristoranti e boutique. Conosciuto come il quartiere culturale di Dublino, è un luogo popolare sia per i turisti che per i locali, offrendo una miscela di musica tradizionale irlandese e intrattenimento moderno.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-car\"></i> Per raggiungere Temple Bar,"
-" hai diverse opzioni convenienti. È facilmente accessibile a piedi da "
-"molti luoghi di interesse centrali di Dublino. Le opzioni di trasporto "
-"pubblico includono numerose rotte di autobus di Dublino che passano nelle"
-" vicinanze, specialmente lungo la vicina Dame Street. Il sistema di tram "
-"Luas ha fermate a Jervis e St. Stephen's Green, ognuna a breve distanza a"
-" piedi da Temple Bar. Per chi arriva in treno, le stazioni ferroviarie "
-"più vicine sono Tara Street e Pearse Street, entrambe a circa dieci "
-"minuti a piedi. Questi vari collegamenti di trasporto rendono Temple Bar "
-"facilmente accessibile da praticamente qualsiasi parte di Dublino.\n"
+"            <i class=\"fa-solid fa-car\"></i> Per raggiungere Temple Bar, hai diverse opzioni comode. È facilmente raggiungibile a piedi da molti punti di riferimento centrali di Dublino, rendendolo accessibile a piedi. Le opzioni di trasporto pubblico includono numerosi percorsi dell'autobus di Dublino che passano vicino, specialmente lungo la vicina Dame Street. Il sistema tram Luas ha fermate a Jervis e St. Stephen's Green, entrambe a breve distanza a piedi da Temple Bar. Per coloro che arrivano in treno, le stazioni ferroviarie più vicine sono Tara Street e Pearse Street, entrambe a circa dieci minuti a piedi. Questi vari collegamenti di trasporto rendono Temple Bar facilmente accessibile da praticamente ogni parte di Dublino.\n"
 "            <br><br>\n"
-"            <i class=\"fa-solid fa-helmet-safety\"></i> Temple Bar è "
-"generalmente considerato sicuro per i visitatori. Tuttavia, come "
-"qualsiasi area urbana affollata, può attrarre borseggiatori e piccoli "
-"crimini, soprattutto tardi la notte quando i bar sono più affollati. Ai "
-"turisti è consigliato di essere consapevoli del proprio ambiente e di "
-"prendere precauzioni standard per proteggere i propri beni.\n"
+"            <i class=\"fa-solid fa-helmet-safety\"></i> Temple Bar è generalmente considerato sicuro per i visitatori. Tuttavia, come qualsiasi area urbana trafficata, può attrarre borseggiatori e criminalità minore, specialmente tardi la sera quando i bar sono più affollati. Ai turisti viene consigliato di essere consapevoli dell'ambiente circostante e di prendere precauzioni standard per proteggere i propri effetti personali.\n"
 "            <br><br>\n"
-"            Clicca <a "
-"href=\"https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB\">Qui</a>"
-" per ulteriori informazioni"
+"            Clicca <a href=\"https://thetemplebarpub.com/?utm_source=GoogleMyBusiness&utm_medium=Organic&utm_campaign=GMB&utm_id=GMB\">Qui</a> per Maggiori Informazioni"
+
 
 #: templates/includes/it/hero.html:194 templates/itinerary.html:159
 msgid "Transportation"
@@ -544,9 +387,8 @@ msgstr "Trasporti"
 msgid ""
 "Here are Links for the Main Transport in Ireland to get to your "
 "Destination"
-msgstr ""
-"Qui trovi i link per i principali mezzi di trasporto in Irlanda per "
-"raggiungere la tua destinazione"
+msgstr "Ecco i link per i principali mezzi di trasporto in Irlanda per raggiungere la tua destinazione"
+
 
 #: templates/includes/de/hero.html:7 templates/includes/en/hero.html:28
 #: templates/includes/hero.html:28 templates/includes/it/hero.html:68
@@ -561,15 +403,10 @@ msgid ""
 "Head on an epic mountain hike and after, experience the cultural riches "
 "of the incredible cities."
 msgstr ""
-"Scopri l'Antico Oriente d'Irlanda, dove la storia vibrante e la vita "
-"moderna si incontrano. Goditi esperienze gastronomiche memorabili, "
-"passeggia per le strade acciottolate delle città medievali ed esplora gli"
-" splendidi giardini di questa pittoresca regione.\n"
-"<br><br>\n"
-"Ascolta le leggende locali e i racconti mitici dell'Irlanda orientale in "
-"un vivace tour a piedi o viaggia indietro nel tempo in un antico sito "
-"monastico. Parti per un'epica escursione in montagna e, successivamente, "
-"sperimenta la ricchezza culturale delle incredibili città."
+"Vivi l'Antica Oriente d'Irlanda dove storia vibrante e vita moderna si incontrano. Goditi esperienze culinarie memorabili, cammina per le strade acciottolate delle città medievali ed esplora i magnifici giardini di questa regione panoramica.\n"
+"      <br><br>\n"
+"      Ascolta leggende locali e racconti mitici dell'est dell'Irlanda durante un vivace tour a piedi o viaggia indietro nel tempo in un antico sito monastico. Fai un'epica escursione in montagna e poi vivi le ricchezze culturali delle incredibili città."
+
 
 #: templates/includes/de/hero.html:72 templates/includes/en/hero.html:66
 #: templates/includes/hero.html:66
@@ -580,11 +417,8 @@ msgid ""
 "charming towns, and calm waters but also for being steeped in history "
 "that ranges from the Celtic times to the modern age."
 msgstr ""
-"L'Ireland's Ancient East è una regione straordinaria che invita i turisti"
-" ad approfondire oltre 5.000 anni di storia europea. Questa terra "
-"tranquilla non è conosciuta solo per le sue verdi colline, le "
-"affascinanti città e le acque calme, ma anche per essere ricca di storia "
-"che spazia dall'epoca celtica all'età moderna."
+"L'Antica Oriente d'Irlanda è una regione straordinaria che invita i turisti a immergersi in oltre 5000 anni di storia europea. \n"
+"            Questa terra tranquilla non è conosciuta solo per le sue colline verdi, le città affascinanti e le acque calme, ma anche per essere immersa nella storia che va dall'epoca celtica all'età moderna."
 
 #: templates/includes/de/hero.html:77 templates/includes/en/hero.html:71
 #: templates/includes/hero.html:71
@@ -595,10 +429,8 @@ msgid ""
 "            Places like the Rock of Cashel in County Tipperary offer a "
 "glimpse into Ireland's majestic past."
 msgstr ""
-"Qui puoi vivere un'esperienza intima con la storia, come entrare in un "
-"monumento che ha resistito millenni o goderti la vista dalla cima di un "
-"faro del XIII secolo. Luoghi come la Rocca di Cashel nella contea di "
-"Tipperary offrono uno sguardo al maestoso passato dell'Irlanda."
+"Qui puoi avere un'esperienza intima con la storia, come entrare in un monumento che ha resistito per millenni o goderti la vista da un faro del XIII secolo. \n"
+"            Luoghi come la Rocca di Cashel nella Contea di Tipperary offrono uno sguardo al maestoso passato dell'Irlanda."
 
 #: templates/includes/de/hero.html:82 templates/includes/en/hero.html:76
 #: templates/includes/hero.html:76
@@ -609,11 +441,8 @@ msgid ""
 "            walk through the medieval streets of Waterford, or ponder the"
 " ancient myths atop the Hill of Tara in Meath."
 msgstr ""
-"Il viaggio attraverso l'Ireland's Ancient East non consiste solo nel "
-"visitare luoghi; riguarda le storie che hanno plasmato l'Irlanda. Puoi "
-"cavalcare le onde fino a Spike Island a Cork, passeggiare per le strade "
-"medievali di Waterford o meditare sugli antichi miti in cima alla collina"
-" di Tara a Meath."
+"La traversata dell'Antica Oriente d'Irlanda non riguarda solo la visita ai luoghi; si tratta delle storie che hanno plasmato l'Irlanda. Puoi cavalcare le onde fino all'Isola di Spike a Cork, \n"
+"            passeggiare per le strade medievali di Waterford o riflettere sui miti antichi sulla collina di Tara a Meath."
 
 #: templates/includes/de/navbar.html:20 templates/includes/en/navbar.html:28
 #: templates/includes/it/navbar.html:21 templates/includes/navbar.html:28
@@ -643,7 +472,7 @@ msgstr "Italiano"
 #: templates/includes/de/hero.html:4 templates/includes/en/hero.html:24
 #: templates/includes/it/hero.html:65
 msgid "Uncover Ireland's Ancient East"
-msgstr "Scopri l'Ancient East dell'Irlanda"
+msgstr "Scopri l'Antica Oriente d'Irlanda
 
 #: templates/includes/de/hero.html:18 templates/includes/en/hero.html:37
 #: templates/includes/it/hero.html:78
@@ -654,13 +483,11 @@ msgstr "Continua a scoprire"
 msgid ""
 "Set off on a journey through the Wicklow Mountains, visit stunning "
 "castles, enjoy incredible food and so much more."
-msgstr ""
-"Intraprendi un viaggio attraverso i Monti Wicklow, visita castelli "
-"stupendi, gusta cibo incredibile e molto altro ancora."
+msgstr "Inizia un viaggio attraverso le Montagne di Wicklow, visita castelli mozzafiato, goditi cibo incredibile e tanto altro."
 
 #: templates/includes/de/hero.html:27
 msgid "Tourist Spots"
-msgstr ""
+msgstr msgstr "Luoghi Turistici"
 
 #: templates/includes/de/hero.html:28
 msgid ""
@@ -679,7 +506,7 @@ msgid ""
 "scenery. Each of these spots showcases the diversity and charm of "
 "Ireland, making it a compelling destination for travelers seeking both "
 "history and natural beauty.<br><br>Click Here to Look at Spots"
-msgstr ""
+msgstr "L'Irlanda è un tesoro di attrazioni turistiche, ognuna offre uno sguardo unico nella ricca storia e nella bellezza naturale del paese. Dublino, la capitale, è famosa per il storico Libro di Kells al Trinity College e il vivace quartiere di Temple Bar. Oltre la città, le Scogliere di Moher si ergono come una meraviglia naturale mozzafiato lungo la costa atlantica, attirando i visitatori con le loro viste mozzafiato. Il Ring of Kerry offre un viaggio panoramico attraverso paesaggi lussureggianti e villaggi pittoreschi, mentre il sito antico di Newgrange offre uno sguardo nel passato preistorico dell'Irlanda. Per gli appassionati di castelli, il Castello di Blarney è una tappa imperdibile, dove si può baciare la famosa Pietra di Blarney. Nel frattempo, la bellezza selvaggia di Connemara e le aspre Isole Aran offrono un assaggio della tradizionale cultura gaelica irlandese, preservata nel tempo e circondata da paesaggi mozzafiato. Ognuno di questi luoghi mostra la diversità e il fascino dell'Irlanda, rendendola una destinazione affascinante per i viaggiatori che cercano sia la storia che la bellezza naturale.<br><br>Clicca Qui per Guardare i Luoghi"
 
 #: templates/includes/de/hero.html:29 templates/includes/de/hero.html:37
 #: templates/includes/de/hero.html:47 templates/includes/de/hero.html:64
@@ -691,11 +518,11 @@ msgstr ""
 #: templates/includes/it/hero.html:221 templates/includes/it/hero.html:232
 #: templates/includes/it/hero.html:243
 msgid "Click Here"
-msgstr "Clicca qui"
+msgstr "Clicca Qui"
 
 #: templates/includes/de/hero.html:35
-msgid "Resturants"
-msgstr ""
+msgid "Restaurants"
+msgstr "Ristoranti"
 
 #: templates/includes/de/hero.html:36
 msgid ""
@@ -715,11 +542,11 @@ msgid ""
 "opportunity to savor a piece of Ireland's cultural heritage, making its "
 "cuisine an integral part of the travel experience.<br><br>Click Here for "
 "the best Resturants!"
-msgstr ""
+msgstr "La cucina irlandese è un delizioso viaggio nei sapori corposi e nelle tecniche culinarie tradizionali, profondamente radicate nell'eredità agricola del paese. Ingredienti come patate, frutti di mare, manzo e agnello costituiscono la base di molti piatti, riflettendo le ricche tradizioni agricole e di pesca dell'Irlanda. Piatti iconici irlandesi includono lo stufato irlandese, fatto con agnello o montone, patate e cipolle, che è sia confortante che sostanzioso. Il pane al soda, un altro alimento di base, è spesso servito insieme ai pasti. Gli amanti del pesce apprezzeranno il salmone fresco, le ostriche e le cozze, particolarmente abbondanti nelle aree costiere. Per assaporare l'eccellenza lattiero-casearia locale, il burro irlandese e i formaggi sono da provare assolutamente, celebrati per la loro qualità e ricchezza. Inoltre, nessun tour culinario dell'Irlanda è completo senza provare una tradizionale colazione irlandese completa, con salsicce, bacon, uova e sanguinaccio. Ogni pasto è un'opportunità per gustare un pezzo del patrimonio culturale dell'Irlanda, rendendo la sua cucina parte integrante dell'esperienza di viaggio.<br><br>Clicca Qui per i migliori Ristoranti!"
 
 #: templates/includes/de/hero.html:43
 msgid "Planning a Trip around Ireland"
-msgstr ""
+msgstr "Pianificazione di un Viaggio in Irlanda"
 
 #: templates/includes/de/hero.html:44
 msgid ""
@@ -740,15 +567,15 @@ msgid ""
 "community, savor traditional Irish dishes, and if possible, schedule your"
 " visit during a festival to experience the full richness of Irish "
 "culture.<br><br>Click here for More Info"
-msgstr ""
+msgstr "Pianificare un viaggio in Irlanda è un'opportunità entusiasmante per esplorare i suoi paesaggi mozzafiato, i suoi luoghi storici e la sua vibrante scena culturale. Prima di partire, assicurati che i tuoi documenti di viaggio, come passaporti e visti, siano in regola. Il periodo migliore per visitare va da maggio a settembre, offrendo temperature più miti e ore di luce più lunghe. Per l'alloggio, hai una vasta gamma di opzioni, dai pittoreschi bed and breakfast agli hotel di lusso. Noleggiare un'auto è consigliabile per massima flessibilità, specialmente se prevedi di avventurarti in campagna, anche se i mezzi pubblici sono affidabili anche per spostarsi in città. Mentre pianifichi il tuo itinerario, considera i siti da non perdere come Dublino per il suo patrimonio letterario e i suoi vivaci pub, le Cliffs of Moher per la spettacolare bellezza naturale e il Ring of Kerry per una panoramica strada panoramica. Fai le valigie per il tempo imprevedibile includendo strati, una giacca impermeabile e scarpe comode. Per immergerti completamente, interagisci con la comunità locale, gusta piatti tradizionali irlandesi e, se possibile, programma la tua visita durante un festival per vivere appieno la ricchezza della cultura irlandese.<br><br>Clicca qui per ulteriori informazioni"
 
 #: templates/includes/de/hero.html:50
 msgid "Links"
-msgstr ""
+msgstr "Collegamenti"
 
 #: templates/includes/de/hero.html:61
 msgid "Ireland's Safety and Security"
-msgstr ""
+msgstr "Sicurezza in Irlanda"
 
 #: templates/includes/de/hero.html:63
 msgid ""
@@ -770,11 +597,11 @@ msgid ""
 "tourist offices provides valuable assistance and information, enhancing "
 "safety and convenience for travelers.<br><br>For More Information: Click "
 "the Button"
-msgstr ""
+msgstr "L'Irlanda è ampiamente considerata una destinazione di viaggio sicura con un tasso di criminalità relativamente basso, specialmente per quanto riguarda la criminalità violenta. Sebbene furti e borseggi possano verificarsi nelle zone ad alta affluenza turistica e nelle principali città come Dublino e Cork, complessivamente l'Irlanda offre un ambiente sicuro per i visitatori. Il trasporto pubblico è affidabile e considerato sicuro, anche se è consigliabile fare attenzione di notte e nelle zone meno popolate. È importante familiarizzare con le leggi e le consuetudini locali, come l'illegalità del bere in pubblico in molti luoghi e le rigide leggi sugli stupefacenti. I servizi di emergenza sono facilmente accessibili chiamando il 112, il numero di emergenza gratuito in tutta l'UE. L'assistenza sanitaria in Irlanda è di alta qualità; i viaggiatori dell'UE dovrebbero portare con sé la Carta europea di assicurazione malattia (EHIC), mentre quelli provenienti da paesi al di fuori dell'UE dovrebbero avere un'assicurazione sanitaria per viaggi completa. Il tempo in Irlanda è famosamente imprevedibile, quindi è essenziale fare le valigie con abiti appropriati e controllare le previsioni, specialmente se sono previste attività all'aperto. Inoltre, la rete di uffici turistici in Irlanda fornisce assistenza e informazioni preziose, migliorando la sicurezza e la comodità per i viaggiatori.<br><br>Per ulteriori informazioni: Clicca sul pulsante"
 
 #: templates/includes/de/hero.html:70 templates/includes/en/hero.html:64
 msgid "Start Exploring"
-msgstr "Inizia a esplorare"
+msgstr "Inizia l'esplorazione"
 
 #: templates/includes/de/hero.html:92 templates/includes/en/hero.html:86
 #: templates/includes/it/hero.html:209
@@ -784,18 +611,18 @@ msgstr "Inizia la tua avventura"
 #: templates/includes/de/hero.html:93 templates/includes/en/hero.html:87
 #: templates/includes/it/hero.html:210
 msgid "Explore Ireland's Ancient East and find your dream getaway."
-msgstr "Esplora l'Ancient East dell'Irlanda e trova la tua vacanza da sogno."
+msgstr "Esplora l'Est Antico d'Irlanda e trova la tua vacanza da sogno."
 
 #: templates/includes/de/hero.html:100 templates/includes/en/hero.html:51
 #: templates/includes/en/hero.html:95 templates/includes/it/hero.html:152
 #: templates/includes/it/hero.html:218
 msgid "Family Fun"
-msgstr "Divertimento in Famiglia"
+msgstr "Divertimento in famiglia"
 
 #: templates/includes/de/hero.html:101 templates/includes/en/hero.html:96
 #: templates/includes/it/hero.html:219
 msgid "Why you have to visit The Irish National Stud and Gardens"
-msgstr "Perché devi visitare lo Stud Nazionale Irlandese e i Giardini"
+msgstr "Perché devi visitare il National Stud e i Giardini Nazionali Irlandesi"
 
 #: templates/includes/de/hero.html:111 templates/includes/en/hero.html:46
 #: templates/includes/en/hero.html:106 templates/includes/it/hero.html:147
@@ -811,24 +638,24 @@ msgstr "Perché vorrai visitare il Brú na Bóinne di Meath"
 #: templates/includes/de/hero.html:122 templates/includes/en/hero.html:117
 #: templates/includes/it/hero.html:240
 msgid "The Great Outdoors"
-msgstr "La Grande Natura"
+msgstr "La Natura e il Benessere"
 
 #: templates/includes/de/hero.html:123 templates/includes/en/hero.html:118
 #: templates/includes/it/hero.html:241
 msgid "Explore Monaghan – Ireland's best kept secret"
-msgstr "Esplora Monaghan – Il segreto meglio custodito dell'Irlanda"
+msgstr "Esplora Monaghan - Il segreto meglio custodito d'Irlanda"
 
 #: templates/includes/en/hero.html:38
 msgid "Ireland's Ancient East is ready for you"
-msgstr "L'Ancient East dell'Irlanda è pronto per te"
+msgstr "L'Est Antico d'Irlanda è pronto per te"
 
 #: templates/includes/en/hero.html:47 templates/includes/it/hero.html:148
 msgid "10 fascinating facts about Ireland's Ancient East"
-msgstr "10 fatti affascinanti sull'Ancient East dell'Irlanda"
+msgstr "10 fatti affascinanti sull'Est Antico d'Irlanda"
 
 #: templates/includes/en/hero.html:52 templates/includes/it/hero.html:153
 msgid "10 ideas for families exploring Ireland's Ancient East"
-msgstr "10 idee per le famiglie che esplorano l'Ancient East dell'Irlanda"
+msgstr "10 idee per le famiglie che esplorano l'Est Antico d'Irlanda"
 
 #: templates/includes/en/hero.html:56 templates/includes/it/hero.html:157
 msgid "Houses and Gardens"
@@ -836,56 +663,55 @@ msgstr "Case e Giardini"
 
 #: templates/includes/en/hero.html:57 templates/includes/it/hero.html:158
 msgid "Discover the gardens of Ireland's Ancient East"
-msgstr "Scopri i giardini dell'Ancient East dell'Irlanda"
+msgstr "Scopri i giardini dell'Est Antico d'Irlanda"
 
 #: templates/includes/it/hero.html:13
 msgid "Explore Culture"
-msgstr ""
+msgstr "Esplora la Cultura"
 
 #: templates/includes/it/hero.html:14
 msgid "Experience the Culture of Ireland"
-msgstr ""
+msgstr "Esperienza della cultura irlandese"
 
 #: templates/includes/it/hero.html:15
 msgid "Sign up today"
-msgstr ""
+msgstr "Iscriviti oggi"
 
 #: templates/includes/it/hero.html:23
 msgid "Live Music"
-msgstr ""
+msgstr "Musica dal Vivo"
 
 #: templates/includes/it/hero.html:24
 msgid "Immerse Irish Music to fulfill the Irish Tradition"
-msgstr ""
+msgstr "Immergiti nella musica irlandese per soddisfare la tradizione irlandese"
 
 #: templates/includes/it/hero.html:25
 msgid "Learn more"
-msgstr ""
+msgstr "Scopri di più"
 
 #: templates/includes/it/hero.html:32 templates/includes/it/hero.html:128
 msgid "Cultural Events"
-msgstr ""
+msgstr "Eventi Culturali"
 
 #: templates/includes/it/hero.html:33
 msgid "Hop in and Enjoy the events held in Ireland"
-msgstr ""
+msgstr "Partecipa e goditi gli eventi organizzati in Irlanda"
 
 #: templates/includes/it/hero.html:34
 msgid "Find More"
-msgstr ""
+msgstr "Trova di più"
 
 #: templates/includes/it/hero.html:79
-#, fuzzy
 msgid "Ireland's Ancient East is ready for You"
-msgstr "L'Ancient East dell'Irlanda è pronto per te"
+msgstr "L'Est Antico d'Irlanda è pronto per te"
 
 #: templates/includes/it/hero.html:80
 msgid "Set off a journey to experience Irish Culture, Music and Irish Event"
-msgstr ""
+msgstr "Inizia un viaggio per sperimentare la cultura irlandese, la musica e gli eventi irlandesi"
 
 #: templates/includes/it/hero.html:88
 msgid "Culture"
-msgstr ""
+msgstr "Cultura"
 
 #: templates/includes/it/hero.html:91
 msgid ""
@@ -895,7 +721,7 @@ msgid ""
 "The country's literary tradition is also marked by figures such as James "
 "Joyce, whose novel \"Ulysses\" is considered one of the most important "
 "works of modernist literature."
-msgstr ""
+msgstr "1. Letteratura<br>L'Irlanda ha dato un contributo eccezionale alla letteratura mondiale. Ha prodotto quattro premi Nobel per la letteratura: George Bernard Shaw, William Butler Yeats, Samuel Beckett e Seamus Heaney. La tradizione letteraria del paese è segnata anche da figure come James Joyce, il cui romanzo \"Ulisse\" è considerato una delle opere più importanti della letteratura modernista."
 
 #: templates/includes/it/hero.html:94
 msgid ""
@@ -905,7 +731,7 @@ msgid ""
 " the fiddle, remains hugely popular and has influenced many kinds of "
 "other music genres. Modern musicians like U2, Sinéad O'Connor, and Enya "
 "have also gained international fame."
-msgstr ""
+msgstr "2. Musica<br>La musica irlandese è una parte vitale della cultura del paese. La musica tradizionale irlandese, con i suoi strumenti distintivi come il bodhrán (un tipo di tamburo), le uilleann pipes (una forma complessa di cornamusa) e il violino, rimane molto popolare e ha influenzato molti altri generi musicali. Musicisti moderni come U2, Sinéad O'Connor e Enya hanno anche ottenuto fama internazionale."
 
 #: templates/includes/it/hero.html:97
 msgid ""
@@ -913,11 +739,11 @@ msgid ""
 "the first official language of the Republic of Ireland and is taught in "
 "schools across the country. There are several areas, known as Gaeltacht "
 "regions, where Irish is the primary spoken language."
-msgstr ""
+msgstr "3. Danza<br>Anche se l'inglese è la lingua predominante, l'irlandese (gaelico) è la prima lingua ufficiale della Repubblica d'Irlanda e viene insegnata nelle scuole di tutto il paese. Ci sono diverse aree, note come regioni Gaeltacht, dove l'irlandese è la lingua parlata primaria."
 
 #: templates/includes/it/hero.html:108
 msgid "Music"
-msgstr ""
+msgstr "Musica"
 
 #: templates/includes/it/hero.html:111
 msgid ""
@@ -926,7 +752,7 @@ msgid ""
 "only includes traditional Irish music but also rock, blues, jazz, and "
 "contemporary pop. Pubs provide a platform for new artists to hone their "
 "craft and gain exposure."
-msgstr ""
+msgstr "1. Cultura dei Pub<br>La musica dal vivo è una parte significativa della cultura dei pub irlandesi, con molti pub in tutto il paese che offrono serate di musica dal vivo. Questo include non solo la musica tradizionale irlandese, ma anche rock, blues, jazz e pop contemporaneo. I pub forniscono una piattaforma per i nuovi artisti per perfezionare il loro mestiere e ottenere visibilità."
 
 #: templates/includes/it/hero.html:114
 msgid ""
@@ -935,7 +761,7 @@ msgid ""
 "music and modern genres. Grafton Street in Dublin is particularly famous "
 "for street music and has been the starting point for several well-known "
 "Irish musicians, including Glen Hansard and Damien Rice."
-msgstr ""
+msgstr "2. Performance per Strada<br>La musica di strada è una vista comune nelle città dell'Irlanda, con artisti che suonano spesso sia musica tradizionale irlandese che generi moderni. Grafton Street a Dublino è particolarmente famosa per la musica di strada ed è stata il punto di partenza per diversi musicisti irlandesi famosi, tra cui Glen Hansard e Damien Rice."
 
 #: templates/includes/it/hero.html:117
 msgid ""
@@ -946,7 +772,7 @@ msgid ""
 "fiddles, tin whistles, flutes, uilleann pipes, and bodhráns. Towns like "
 "Doolin in County Clare and Galway City are particularly famous for their "
 "vibrant music scenes."
-msgstr ""
+msgstr "3. Sessioni di Musica Tradizionale<br>Le sessioni di musica tradizionale irlandese sono un elemento fondamentale della scena musicale dal vivo in Irlanda. Queste sessioni di solito si svolgono nei pub e sono incontri informali in cui i musicisti suonano insieme melodie folk. Queste sessioni possono presentare una varietà di strumenti come violini, tin whistle, flauti, uilleann pipes e bodhrán. Città come Doolin nella contea di Clare e Galway City sono particolarmente famose per le loro vivaci scene musicali."
 
 #: templates/includes/it/hero.html:130
 msgid ""
@@ -956,7 +782,7 @@ msgid ""
 " dancing, and the wearing of green attire. While it's celebrated "
 "globally, in Ireland, the festivities are particularly vibrant, with the "
 "largest parade in Dublin attracting hundreds of thousands of visitors."
-msgstr ""
+msgstr "1. Giorno di San Patrizio<br>Il Giorno di San Patrizio, il 17 marzo, è forse l'evento culturale irlandese più iconico di tutti. Commemora San Patrizio, il santo patrono d'Irlanda, e celebra la cultura irlandese con parate, musica, danze e l'indossare abiti verdi. Sebbene sia celebrato globalmente, in Irlanda le festività sono particolarmente vivaci, con la più grande parata a Dublino che attira centinaia di migliaia di visitatori."
 
 #: templates/includes/it/hero.html:133
 msgid ""
@@ -965,7 +791,7 @@ msgid ""
 " brought world-renowned jazz musicians to Ireland and provided a stage "
 "for emerging talents. The festival features a mix of live performances, "
 "workshops, and impromptu jam sessions across various venues in Cork city."
-msgstr ""
+msgstr "2. Festival del Jazz di Cork<br>Organizzato annualmente in ottobre, il Festival del Jazz di Cork è uno degli eventi jazz più significativi in Europa. Dal 1978, ha portato musicisti jazz di fama mondiale in Irlanda e ha fornito un palcoscenico per talenti emergenti. Il festival presenta una miscela di esibizioni dal vivo, workshop e sessioni di jam improvvisate in vari luoghi della città di Cork."
 
 #: templates/includes/it/hero.html:136
 msgid ""
@@ -974,11 +800,11 @@ msgid ""
 "specialized theatre festival. It presents an engaging lineup of "
 "international theatre as well as new and experimental Irish plays, making"
 " it a significant event in the international arts calendar."
-msgstr ""
+msgstr "3. Festival del Teatro di Dublino<br>Fondato nel 1957, il Festival del Teatro di Dublino si tiene in settembre e ottobre ed è il festival teatrale specializzato più antico d'Europa. Presenta una interessante selezione di teatro internazionale oltre a nuove e sperimentali opere teatrali irlandesi, rendendolo un evento significativo nel calendario artistico internazionale."
 
 #: templates/includes/it/hero.html:167
 msgid "Start Exploring Irish Music and Culture"
-msgstr ""
+msgstr "Inizia ad Esplorare la Musica e la Cultura Irlandese"
 
 #: templates/includes/it/hero.html:169
 msgid ""
@@ -1005,125 +831,21 @@ msgid ""
 "offering a deeper understanding of the Irish way of life and its "
 "universal appeal."
 msgstr ""
+"La cultura irlandese è un vibrante tessuto intessuto con i fili della storia, dell'arte e dello spirito comunitario, celebrato in tutto il mondo per le sue ricche tradizioni e raduni festosi. Al cuore dell'espressione culturale irlandese c'è la sua musica, caratterizzata da strumenti come il violino, il tin whistle e il bodhrán. La musica tradizionale irlandese, spesso eseguita durante vivaci sessioni nei pub e negli eventi comunitari, offre un collegamento diretto alla storia dell'Irlanda e una forma di narrazione che cattura le lotte, le gioie e lo spirito resiliente del popolo.\n"
+"          <br>\n"
+"          Gli eventi culturali svolgono un ruolo cruciale nel sostenere queste tradizioni, con festival come le parate del giorno di San Patrizio e il Fleadh Cheoil che attirano visitatori da tutto il mondo. Questi raduni non sono solo celebrazioni, ma servono anche da piattaforme per lo scambio interculturale e l'educazione sulle radici storiche profonde delle tradizioni irlandesi. Attraverso musica e danza, sessioni di narrazione e workshop sulla lingua gaelica, questi eventi offrono esperienze immersive che collegano gli individui al cuore duraturo della cultura irlandese.\n"
+"          <br>\n"
+"          Per chiunque voglia approfondire la cultura irlandese, partecipare o assistere a questi festival culturali può essere un'esperienza arricchente, offrendo una comprensione più profonda dello stile di vita irlandese e del suo appello universale."
 
 #: templates/includes/it/hero.html:184
 msgid "Famous Bars"
-msgstr ""
+msgstr "Bar Famosi"
+
+#: templates/includes/it/hero.html:189
+msgid "Irish Concerts"
+msgstr "Concerti Irlandesi"
 
 #: templates/includes/it/hero.html:199
 msgid "Wishing to Stay"
-msgstr ""
-
-#~ msgid ""
-#~ "Embark on a timeless journey through "
-#~ "Ireland's Ancient East, a treasured land"
-#~ " woven with legendary tales, historic "
-#~ "footsteps, and landscapes that hold the"
-#~ " whispers of centuries.\n"
-#~ "        From the lush valleys of "
-#~ "the Wicklow Mountains to the storied "
-#~ "stones of Kilkenny Castle, each bend "
-#~ "in the road leads to new "
-#~ "adventures steeped in the myths and "
-#~ "sagas that are the heart of "
-#~ "Ireland's heritage.\n"
-#~ "        <br>\n"
-#~ "        Your itinerary unfolds like a"
-#~ " well-worn map to the past, "
-#~ "guiding you to mystical sites like "
-#~ "the Brú na Bóinne, where ancient "
-#~ "tombs predate the pyramids of Egypt, "
-#~ "and to vibrant towns where the "
-#~ "past is as palpable as the stones"
-#~ " underfoot.\n"
-#~ "        Whether you're exploring the "
-#~ "serene beauty of Glendalough or the "
-#~ "hallowed halls of storied monasteries, "
-#~ "Ireland's Ancient East promises a "
-#~ "tapestry of experiences that intertwine "
-#~ "the natural beauty with the indelible"
-#~ " mark of history.\n"
-#~ "        <br>\n"
-#~ "        Here, where every path has "
-#~ "a story, your journey will be more"
-#~ " than a passage through landmarks; it"
-#~ " will be an immersive dive into "
-#~ "a world where legends live and "
-#~ "breathe.\n"
-#~ "        Welcome to Ireland's Ancient "
-#~ "East, where history awaits at every "
-#~ "turn. <h4>Scroll Down for More</h4>"
-#~ msgstr ""
-#~ "Parti per un viaggio senza tempo "
-#~ "attraverso l'Ireland's Ancient East, una "
-#~ "terra preziosa intessuta di storie "
-#~ "leggendarie, tracce storiche e paesaggi "
-#~ "che racchiudono i sussurri dei secoli."
-#~ " Dalle lussureggianti vallate dei Monti "
-#~ "Wicklow alle pietre leggendarie del "
-#~ "Castello di Kilkenny, ogni curva della"
-#~ " strada porta a nuove avventure "
-#~ "immerse nei miti e nelle saghe che"
-#~ " sono il cuore del patrimonio "
-#~ "irlandese.\n"
-#~ "<br>\n"
-#~ "Il tuo itinerario si svolge come "
-#~ "una mappa logora del passato, guidandoti"
-#~ " verso siti mistici come Brú na "
-#~ "Bóinne, dove antiche tombe sono "
-#~ "antecedenti alle piramidi d'Egitto, e "
-#~ "verso città vivaci dove il passato "
-#~ "è palpabile come le pietre sotto i"
-#~ " piedi. Che tu stia esplorando la "
-#~ "serena bellezza di Glendalough o le "
-#~ "sacre sale dei monasteri storici, "
-#~ "l'Ireland's Ancient East promette un "
-#~ "insieme di esperienze che intrecciano la"
-#~ " bellezza naturale con il segno "
-#~ "indelebile della storia.\n"
-#~ "<br>\n"
-#~ "Qui, dove ogni percorso ha una "
-#~ "storia, il tuo viaggio sarà più di"
-#~ " un passaggio attraverso punti di "
-#~ "riferimento; sarà un tuffo coinvolgente "
-#~ "in un mondo in cui le leggende "
-#~ "vivono e respirano. Benvenuto nell'Ireland's"
-#~ " Ancient East, dove la storia ti "
-#~ "attende ad ogni angolo.<h4>Scorri verso "
-#~ "il basso per ulteriori informazioni<h4>"
-
-#~ msgid "Map of Ireland"
-#~ msgstr "Mappa dell'Irlanda"
-
-#~ msgid "Places and Events"
-#~ msgstr "Luoghi ed Eventi"
-
-#~ msgid ""
-#~ "Ireland's Ancient East is a region "
-#~ "of profound historical and cultural "
-#~ "significance, offering a range of "
-#~ "attractions that showcase Ireland's heritage,"
-#~ " from ancient times to modern day."
-#~ " Some of the must-visit places "
-#~ "include:"
-#~ msgstr ""
-#~ "L'Ireland's Ancient East è una regione"
-#~ " dal profondo significato storico e "
-#~ "culturale, che offre una serie di "
-#~ "attrazioni che mettono in mostra il "
-#~ "patrimonio irlandese, dai tempi antichi "
-#~ "ai giorni nostri. Alcuni dei luoghi "
-#~ "da visitare includono:"
-
-#~ msgid "Transportation"
-#~ msgstr "Trasporti"
-
-#~ msgid ""
-#~ "Here are Links for the Main "
-#~ "Transport in Ireland to get to "
-#~ "your Destination"
-#~ msgstr ""
-#~ "Ecco i link per i principali mezzi"
-#~ " di trasporto in Irlanda per arrivare"
-#~ " a destinazione"
+msgstr "Desiderio di Rimanere"
 
