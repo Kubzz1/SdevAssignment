@@ -1,29 +1,8 @@
-<!-- <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/img1.jpeg') }}" class="d-block w-100" alt="Image 1">
-      </div>
-      <div class="carousel-item">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/img2.jpg') }}" class="d-block w-100" alt="Image 2">
-      </div>
-      <div class="carousel-item">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/img3.jpg') }}" class="d-block w-100" alt="Image 3">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
 
+  <!-- Introduction -->
   <header>
     <h1>{{_('Uncover Ireland\'s Ancient East')}}</h1>
   </header>
-
   <section class="content">
     <p>{{_('Experience Ireland\'s Ancient East where vibrant history and modern life meet. Enjoy memorable food experiences, wander down the cobbled streets of medieval towns and explore the gorgeous gardens of this scenic region.
       <br><br>
@@ -32,34 +11,61 @@
    
   </section>
 
-  <div class="container-1">
-    <section class="hero">
-        <h1>{{_('KeepDiscovering')}}</h1>
-        <h2>{{_('Ireland\'s Ancient East is ready for you')}}</h2>
-        <p>{{_('Set off on a journey through the Wicklow Mountains, visit stunning castles, enjoy incredible food and so much more.')}}</p>
-        <a href="{{ url_for('itinerary') }}" class="btn-more">Itinerary</a>
-    </section>
-    
-    <section class="cards">
-        <div class="card">
-            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/handh.jpg') }}" class="d-block w-100" alt="Image 3">
-            <h3>{{_('History and Heritage')}}</h3>
-            <p>{{_('10 fascinating facts about Ireland\'s Ancient East')}}</p>
-        </div>
-        <div class="card">
-            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/famfun.jpg') }}" class="d-block w-100" alt="Image 3">
-            <h3>{{_('Family Fun')}}</h3>
-            <p>{{_('10 ideas for families exploring Ireland\'s Ancient East')}}</p>
-        </div>
-        <div class="card">
-            <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/handgard.jpg') }}" class="d-block w-100" alt="Image 3">
-            <h3>{{_('Houses and Gardens')}}</h3>
-            <p>{{_('Discover the gardens of Ireland\'s Ancient East')}}</p>
-        </div>
-    </section>
-</div>
+<div class="container py-4">
+  <header class="pb-3 mb-4"></header>
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">{{_('KeepDiscovering')}}</h1>
+      <p class="col-md-8 fs-4">{{_('Set off on a journey through the Wicklow Mountains, visit stunning castles, enjoy incredible food and so much more.')}}</p>
+      <a href="{{ url_for('itinerary') }}" class="btn btn-primary btn-lg" role="button">{{_('Itinerary')}}</a>
+    </div>
+  </div>
 
-<div class="container-2">
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-bg-dark rounded-3">
+        <h2><i class="fa-solid fa-map-pin"></i> {{_('Tourist Spots')}}</h2>
+        <p>{{_('Ireland is a treasure trove of tourist attractions, each offering a unique glimpse into the country\'s rich history and natural beauty. Dublin, the capital, is renowned for the historic Book of Kells at Trinity College and the lively Temple Bar district. Beyond the city, the Cliffs of Moher stand as a breathtaking natural wonder along the Atlantic coast, drawing visitors with their dramatic views. The Ring of Kerry provides a scenic drive through lush landscapes and quaint villages, while the ancient site of Newgrange offers a look back into Ireland’s prehistoric past. For castle enthusiasts, Blarney Castle is a must-visit, where one can kiss the famous Blarney Stone. Meanwhile, the wild beauty of Connemara and the rugged Aran Islands offer a taste of Ireland’s traditional Gaelic culture, preserved in time and surrounded by stunning scenery. Each of these spots showcases the diversity and charm of Ireland, making it a compelling destination for travelers seeking both history and natural beauty.<br><br>Click Here to Look at Spots')}}</p>
+        <a href="https://www.ireland.com/en-us/magazine/culture/ten-top-visitor-attractions/" class="btn btn-outline-light" role="button">{{_('Click Here')}}</a>
+      </div>
+
+    </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <h2><i class="fa-solid fa-utensils"></i> {{_('Resturants')}}</h2>
+        <p>{{_('Irish cuisine is a delightful exploration of hearty flavors and traditional cooking techniques, deeply rooted in the country\'s agricultural heritage. Staples like potatoes, seafood, beef, and lamb form the backbone of many dishes, reflecting Ireland\'s rich farming and fishing traditions. Iconic Irish dishes include Irish stew, made with lamb or mutton, potatoes, and onions, which is both comforting and filling. Soda bread, another staple, is often served alongside meals. Seafood lovers will appreciate the fresh salmon, oysters, and mussels, particularly abundant in coastal areas. For a taste of local dairy excellence, Irish butter and cheeses are must-tries, celebrated for their quality and richness. Additionally, no culinary tour of Ireland is complete without experiencing a traditional full Irish breakfast, featuring sausage, bacon, eggs, and black pudding. Each meal is an opportunity to savor a piece of Ireland\'s cultural heritage, making its cuisine an integral part of the travel experience.<br><br>Click Here for the best Resturants!')}}</p>
+        <a href="https://guide.michelin.com/en/article/travel/best-restaurants-ireland" class="btn btn-outline-secondary" role="button">{{_('Click Here')}}</a>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <h2><i class="fa-solid fa-bus"></i> {{_('Planning a Trip around Ireland')}}</h2>
+        <p>{{_('Planning a trip to Ireland is an exhilarating opportunity to explore its breathtaking landscapes, historic landmarks, and vibrant cultural scene. Before you go, make sure your travel documents, such as passports and visas, are in order. The best time to visit is from May to September, offering milder temperatures and longer daylight hours. For accommodations, you have a wide range of options, from quaint bed and breakfasts to luxurious hotels. Renting a car is advisable for maximum flexibility, especially if you plan to venture into the countryside, though public transportation is also reliable for city hopping. As you plan your itinerary, consider must-visit sites like Dublin for its literary heritage and lively pubs, the Cliffs of Moher for spectacular natural beauty, and the Ring of Kerry for a picturesque drive. Pack for unpredictable weather by including layers, a waterproof jacket, and comfortable shoes. To fully immerse yourself, engage with the local community, savor traditional Irish dishes, and if possible, schedule your visit during a festival to experience the full richness of Irish culture.<br><br>Click here for More Info')}}</p>
+        <div class="dropend">
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{_('Click Here')}}
+          </button>
+          <ul class="dropdown-menu">
+            <li><h6 class="dropdown-header">{{_('Links')}}</h6></li>
+            <li><a class="dropdown-item" href="https://www.transportforireland.ie/">Transport for Ireland</a></li>
+            <li><a class="dropdown-item" href="https://www.trivago.ie/">Hotels</a></li>
+            <li><a class="dropdown-item" href="https://www.tripadvisor.ie/Attractions-g186591-Activities-Ireland.html">Places to Go</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-bg-dark rounded-3">
+        <h2><i class="fa-solid fa-helmet-safety"></i> {{_('Ireland\'s Safety and Security')}}</h2>
+        <p>
+          {{_('Ireland is widely regarded as a safe travel destination with a relatively low crime rate, especially concerning violent crime. While petty theft and pickpocketing can occur in tourist-heavy areas and major cities like Dublin and Cork, overall, Ireland offers a secure environment for visitors. Public transportation is reliable and considered safe, though caution is advised at night and in less populated areas. It’s important to familiarize yourself with local laws and customs, such as the illegality of public drinking in many places and stringent drug laws. Emergency services are readily accessible by dialing 112, the free emergency number throughout the EU. Health care in Ireland is high quality; EU travelers should carry a European Health Insurance Card (EHIC), and those from outside the EU should have comprehensive travel health insurance. The Irish weather is famously unpredictable, so packing appropriate clothing and checking forecasts is essential, especially if outdoor activities are planned. Additionally, Ireland’s network of tourist offices provides valuable assistance and information, enhancing safety and convenience for travelers.<br><br>For More Information: Click the Button')}}</p>
+          <a href="https://www.gov.uk/foreign-travel-advice/ireland/safety-and-security" class="btn btn-outline-light" role="button">{{_('Click Here')}}</a>
+      </div>
+  </div>
+
+<!-- <div class="container-2">
     <div class="text-section">
         <h1>{{_('Start Exploring')}}</h1>
         <p>
@@ -80,13 +86,12 @@
     <div class="image-section">
         <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}" class="d-block w-100" alt="Image 3">
     </div>
-</div>
+</div> -->
 
 <div class="header">
     <h1>{{_('Start your adventure')}}</h1>
     <p>{{_('Explore Ireland\'s Ancient East and find your dream getaway.')}}</p>
-  </div>
-  
+  </div>  
   <div class="card-container">
     <!-- Card 1 -->
     <div class="card1">
