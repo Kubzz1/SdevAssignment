@@ -1,5 +1,5 @@
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='assets/img/' + '/logo-multi.svg') }}" alt="..." />
@@ -16,7 +16,6 @@
     </div> 
   </nav>
   
-  <!-- Centered links and icons under the search bar -->
   <div class="links text-center bg-body-tertiary ">
     <div class="d-inline-block m-3">
       <a class="d-block nav-link" href="{{ url_for('index') }}"><i class="fa-solid fa-house"></i><br> {{_('Home')}}</a>
@@ -40,4 +39,43 @@
         <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='it') }}">{{_('Italian')}}</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
+
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example" style="padding-bottom: 10px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='assets/img/' + '/logo-multi.svg') }}" alt="..." />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">{{_('Home')}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('itinerary')}}">{{_('Itinerary')}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{_('Events')}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('contact')}}">{{_('Contact')}}</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i> {{_('Language')}}</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
+              <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='de') }}">{{_('German')}}</a></li>
+              <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='it') }}">{{_('Italian')}}</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
