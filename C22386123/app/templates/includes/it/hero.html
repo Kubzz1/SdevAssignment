@@ -36,14 +36,6 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
 <!-- <div id="carouselExample" class="carousel slide">
@@ -103,8 +95,8 @@
           {{_('3. Dance<br>While English is the predominant language, Irish (Gaelic) is the first official language of the Republic of Ireland and is taught in schools across the country. There are several areas, known as Gaeltacht regions, where Irish is the primary spoken language.')}}
         </p>
       </div>
-      <div class="col-md-5">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/culture.webp') }}" width="500" height="500">
+      <div class="featuretteimg col-md-5">
+        <a href="https://www.authenticvacations.com/the-7-pillars-of-irish-culture#:~:text=Irish%20culture%20is%20rich%2C%20diverse,heavily%20influenced%20by%20the%20Scots."><img src="{{ url_for('static', filename='assets/img/' + lang_code +'/culture.webp') }}" width="500" height="500"></a>
       </div>
     </div>
     
@@ -123,8 +115,8 @@
           {{_('3. Traditional Music Sessions<br>Traditional Irish music sessions are a staple of the live music scene in Ireland. These sessions usually take place in pubs and are informal gatherings where musicians play folk tunes together. These sessions can feature a variety of instruments such as fiddles, tin whistles, flutes, uilleann pipes, and bodhráns. Towns like Doolin in County Clare and Galway City are particularly famous for their vibrant music scenes.')}}
         </p>
       </div>
-      <div class="col-md-5 order-md-1 p-1">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/music.jpg') }}" width="500" height="500">
+      <div class="featuretteimg col-md-5 order-md-1 p-1">
+        <a href="https://www.irishmusicmagazine.com/"><img src="{{ url_for('static', filename='assets/img/' + lang_code +'/music.jpg') }}" width="500" height="500"></a>
       </div>
     </div>
 
@@ -142,8 +134,8 @@
           {{_('3. Dublin Theatre Festival<br>Founded in 1957, the Dublin Theatre Festival is held in September and October and is Europe’s oldest specialized theatre festival. It presents an engaging lineup of international theatre as well as new and experimental Irish plays, making it a significant event in the international arts calendar.')}}
         </p>
       </div>
-      <div class="col-md-5">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/culture.jpg') }}" width="500" height="500">
+      <div class="featuretteimg col-md-5">
+        <a href="https://www.irishtourism.com/festivals"><img src="{{ url_for('static', filename='assets/img/' + lang_code +'/culture.jpg') }}" width="500" height="500"></a>
       </div>
     </div>
 
@@ -185,7 +177,7 @@
         </p>
     </div>
     <div class="image-section">
-        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}" alt="Image 3">
+        <img src="{{ url_for('static', filename='assets/img/' + lang_code +'/ireland.jpg') }}">
     </div>
 </div>
 
@@ -226,5 +218,28 @@
         <p class="location">© Co. Monaghan</p>
         <a href="https://www.discoverireland.ie/monaghan/explore-monaghan">{{_('Click Here')}}</a>
       </div>
+    </div>
+  </div>
+  <div class="bd-example-snippet bd-code-snippet">
+    <div class="bd-example m-0 border-0">
+      
+          <nav aria-label="Standard pagination example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link">1</a></li>
+              <li class="page-item"><a class="page-link">2</a></li>
+              <li class="page-item"><a class="page-link">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
     </div>
   </div>

@@ -1,6 +1,5 @@
 body, html {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #c5edc5;
 }
@@ -55,7 +54,6 @@ body, html {
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
   }
 
   body {
@@ -156,15 +154,12 @@ body, html {
 .container-2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10rem;
-    padding-top: 5rem;
-    margin: 20px;
+    align-items: center;  
 }
 
 .text-section {
     flex-basis: 60%; 
-    padding-right: 2.5rem; 
+    /* padding-right: 2.5rem;  */
     text-align: center;
     font-size: 15px;
 }
@@ -177,8 +172,8 @@ body, html {
 .image-section img {
     max-width: 100%;
     height: auto;
-    margin-left: 2.5rem;
-    padding-left: 2.5rem;
+    /* margin-left: 2.5rem;
+    padding-left: 2.5rem; */
 }
 
 .container-3 {
@@ -487,4 +482,19 @@ body, html {
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+}
+
+.featuretteimg:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  z-index: 10;
+}
+
+.featuretteimg img {
+  transition: transform 0.3s ease; 
+}
+
+.featurette:hover img {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
